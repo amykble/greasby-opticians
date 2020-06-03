@@ -7,6 +7,7 @@
 ## Information about The Website
 
 This website is the face of Greasby Opticians, a buisness in Greasby, England.  I created the site using Vue js, Gridsome and Tailwind CSS.
+See the [changelog](CHANGELOG.md) to see all updates to this project.
 
 ## Technologies Used
 
@@ -71,7 +72,7 @@ This website is the face of Greasby Opticians, a buisness in Greasby, England.  
 * `cd my-gridsome-site` to open folder
 * `gridsome develop` to start local dev server at http://localhost:8080
 * `gridsome build` to build a dist folder with generated static files
+The super fast and secure static site is ready to be deployed 🙌
 
 ----------
-
-The super fast and secure static site is ready to be deployed 🙌
+[changelog](CHANGELOG.md)
