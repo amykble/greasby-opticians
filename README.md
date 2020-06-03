@@ -79,7 +79,7 @@ The super fast and secure static site is ready to be deployed 🙌
 [changelog](CHANGELOG.md)
 
 <p>Created with 
-<a href="https://vuejs.org"><img height="16" src="src/assets/images/amykble/vue.svg.png" alt="vue"></a>
-<a href="https://tailwindcss.com"><img height="16" src="src/assets/images/amykble/tailwind.png" alt="tailwind"></a>
-<a href="https://gridsome.org"><img height="16" src="src/assets/images/amykble/gridsome.svg" alt="gridsome"></a>
- by <a href="#">Amy Keable</a></p>
+<a href="https://vuejs.org" target="_blank" rel="noopener"><img height="16" src="src/assets/images/amykble/vue.svg.png" alt="vue"></a>
+<a href="https://tailwindcss.com" target="_blank" rel="noopener"><img height="16" src="src/assets/images/amykble/tailwind.png" alt="tailwind"></a>
+<a href="https://gridsome.org" target="_blank" rel="noopener"><img height="16" src="src/assets/images/amykble/gridsome.svg" alt="gridsome"></a>
+ by <a href="#" target="_blank" rel="noopener">Amy Keable</a></p>
