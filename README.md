@@ -10,14 +10,14 @@ This website is the face of Greasby Opticians, a buisness in Greasby, England.  
 
 ## Technologies Used
 
-**Tailwind CSS:**
-[Tailwind CSS](https://tailwindcss.com) is a low-level CSS framework that allows you to build responsive css with html classes
+* **Tailwind CSS:**
+    [Tailwind CSS](https://tailwindcss.com) is a low-level CSS framework that allows you to build responsive css with html classes
 
-**Gridsome:**
-[Gridsome](https://gridsome.org) is a jamstack static site generator for vue, it allows you to use any cms, markdown and many forms of data to build websites that can be deployed on Github and hosted on [Netlify](https://www.netlify.com) or a similar host.
+* **Gridsome:**
+    [Gridsome](https://gridsome.org) is a jamstack static site generator for vue, it allows you to use any cms, markdown and many forms of data to build websites that can be deployed on Github and hosted on [Netlify](https://www.netlify.com) or a similar host.
 
-**Vue:**
-[Vue](https://vuejs.org) is a JavaScript framework that is easy to use and build websites out of components and intergrate functionality into a site with ease.
+* **Vue:**
+    [Vue](https://vuejs.org) is a JavaScript framework that is easy to use and build websites out of components and intergrate functionality into a site with ease.
 
 ## File Structure
 
@@ -63,12 +63,15 @@ This website is the face of Greasby Opticians, a buisness in Greasby, England.  
 
 ### Install Gridsome CLI tool
 
-Using YARN: `yarn global add @gridsome/cli`
-Using NPM: `npm install --global @gridsome/cli`
+* Using YARN: `yarn global add @gridsome/cli`
+* Using NPM: `npm install --global @gridsome/cli`
 
 ### Create a Gridsome project
-`gridsome create my-gridsome-site` to create a new project
-`cd my-gridsome-site` to open folder
-`gridsome develop` to start local dev server at http://localhost:8080
-`gridsome build` to build a dist folder with generated static files
+* `gridsome create my-gridsome-site` to create a new project
+* `cd my-gridsome-site` to open folder
+* `gridsome develop` to start local dev server at http://localhost:8080
+* `gridsome build` to build a dist folder with generated static files
+
+----------
+
 The super fast and secure static site is ready to be deployed 🙌
