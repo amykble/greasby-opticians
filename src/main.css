@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;800&display=swap');
+
+@tailwind base;
+
+/* @import 'assets/styles/small-normalize.css'; */
+/* I think my small normalize is redundant with tailwind base imported */
+@import 'assets/styles/andy-bell-reset.css';
+@import 'assets/styles/my-resets.css';
+
+@tailwind components;
+
+@tailwind utilities;
