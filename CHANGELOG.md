@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.2.1] | 2020-06-03
+#### Added
+* x
+#### Changed
+* x
+#### Fixed
+* Removed src="main.css" from Navigation.vue, it was causing issues with the scoped css within the file
+----------
 ## [0.2.0] | 2020-06-03
 #### Added
 * The responsive navigation component
