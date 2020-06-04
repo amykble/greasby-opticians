@@ -22,7 +22,7 @@ See the [changelog](CHANGELOG.md) to see all updates to this project.
 
 ## File Structure
 
-```css
+```
 .
 |- gridsome.config.js
 |- gridsome.server.js

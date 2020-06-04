@@ -17,7 +17,7 @@ module.exports = {
               '192': '48rem'
           },
           fontFamily: {
-              'body': ['Work Sans', 'Arial', 'sans-serif'],
+              'body': ['Quicksand', 'Arial', 'sans-serif'],
           },
           boxShadow: {
               'r': '1px 0 3px 0 rgba(0, 0, 0, 0.1), 1px 0 2px 0 rgba(0, 0, 0, 0.06)',    // right

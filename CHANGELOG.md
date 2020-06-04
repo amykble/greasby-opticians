@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.2.0] | 2020-06-03
+#### Added
+* The responsive navigation component
+* Depoyed to a temporary doamin with Netlify
+#### Changed
+* Changed the font body to 'Quicksand' in the tailwind config file
+#### Fixed
+* x
+----------
 ## [0.1.0] | 2020-06-02
 #### Added
 * Initial project push to Github

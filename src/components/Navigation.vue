@@ -1,29 +1,36 @@
 <template>
 <header class="font-body">
-  <section class="fixed nav-container w-full bg-teal-400 shadow-md md:flex md:justify-between">
-    <nav class="mx-auto py-2 px-4 xl:px-0 max-w-screen-xl flex items-center justify-between md:mx-0 md:justify-start">
-      <a href="#" class="flex items-center focus:outline-none focus:shadow-outline">
-        <img src="https://img.icons8.com/ios-filled/50/B2F5EA/javascript.png" alt="logo" class=" w-10">
-        <h1 class="ml-2 text-2xl text-white">Navigation Title</h1>
+  <section :class="isOpen ? 'appear' : 'disappear'" class="nav-container fixed h-full w-64 bg-white shadow-md transition duration-300 ease-in-out">
+    <nav :class="isOpen ? 'opacity' : 'none'" class="transition duration-300 delay-300 ease-in-out">
+      <a href="#" class="focus:outline-none">
+        <img src="../assets/images/GO-logo.jpg" alt="Greasby Opticians" class="w-56 ml-3 mt-4 ">
       </a>
-      <div class="flex items-center">
-        <button type="button" class="ml-6 cursor-pointer bg-teal-200 border-none px-3 py-1 rounded transition duration-200 ease-in-out hover:bg-teal-300 focus:outline-none focus:shadow-outline">Free Trial</button>
-        <button @click="isOpen = !isOpen" type="button" class="hamburger md:hidden bg-transparent ml-4 p-1 border rounded border-transparent transition duration-200 ease-in-out hover:border-white cursor-pointer focus:outline-none focus:shadow-outline">
-          <span class="slice w-8 h-1 block bg-white"></span>
-          <span class="slice w-8 h-1 mt-1 block bg-white"></span>
-          <span class="slice w-8 h-1 mt-1 block bg-white"></span>
-        </button>
+      <hr class="w-56 ml-4 mt-12">
+        <a href="#" class="block my-2 mx-4 hover:text-gray-500 transition duration-200 ease-in-out">Home</a>
+        <a href="#" class="block my-2 mx-4 hover:text-gray-500 transition duration-200 ease-in-out">About Us</a>
+        <a href="#" class="block my-2 mx-4 hover:text-gray-500 transition duration-200 ease-in-out">Our Services</a>
+      <hr class="w-56 ml-4">
+      <hr class="w-56 ml-4 mt-12">
+        <a href="#" class="block my-2 mx-4 hover:text-gray-500 transition duration-200 ease-in-out">NHS</a>
+        <a href="#" class="block my-2 mx-4 hover:text-gray-500 transition duration-200 ease-in-out">Kids</a>
+        <a href="#" class="block my-2 mx-4 hover:text-gray-500 transition duration-200 ease-in-out">Frames</a>
+        <a href="#" class="block my-2 mx-4 hover:text-gray-500 transition duration-200 ease-in-out">Contact Lenses</a>
+      <hr class="w-56 ml-4">
+      <div class="absolute bottom-0">
+        <hr class="w-56 ml-4">
+          <a href="#" class="block my-2 mx-4 hover:text-gray-500 transition duration-200 ease-in-out">FAQ</a>
+          <a href="#" class="block my-2 mx-4 hover:text-gray-500 transition duration-200 ease-in-out">Contact Us</a>
+        <hr class="w-56 ml-4 mb-4">
       </div>
     </nav>
-    <div :class="isOpen ? 'block' : 'hidden'" class="mx-2 mt-1 mb-4 md:my-0 md:flex md:items-center">
-      <a href="#" class="block py-1 px-2 my-1 text-lg text-white rounded transition duration-200 ease-in-out hover:text-gray-700 hover:bg-teal-300 focus:outline-none focus:shadow-outline md:ml-2">Home</a>
-      <a href="#" class="block py-1 px-2 my-1 text-lg text-white rounded transition duration-200 ease-in-out hover:text-gray-700 hover:bg-teal-300 focus:outline-none focus:shadow-outline md:ml-2">About</a>
-      <a href="#" class="block py-1 px-2 my-1 text-lg text-white rounded transition duration-200 ease-in-out hover:text-gray-700 hover:bg-teal-300 focus:outline-none focus:shadow-outline md:ml-2 md:mr-1">Contact</a>
-    </div>  
   </section>
-  <section class="h-14">
-    <!-- this section is the same height as the navigation -->
-  </section>
+  <div class="fixed right-0 md:left-0 md:ml-64">
+    <button @click="isOpen = !isOpen" type="button" class="hamburger bg-transparent m-2 p-2 border-transparent">
+      <span class="slice slice-1 w-8 h-1 block bg-black transition-all duration-200 ease-in-out"></span>
+      <span class="slice slice-2 w-10 h-1 mt-1 block bg-black transition-all duration-200 ease-in-out"></span>
+      <span class="slice slice-3 w-6 h-1 mt-1 block bg-black transition-all duration-200 ease-in-out"></span>
+    </button>
+  </div>
 </header>
 </template>
 
@@ -33,13 +40,56 @@ export default {
   name: 'Navigation',
   data() {
     return {
-      isOpen: false,
+      isOpen: true,
     }
   }
 }
 </script>
 
 
-<style src='../main.css' scoped>
-/* importing the main.css for the tailwind styles isn't necessary but the autocomplete of class names seems to only work with it there */
+<style scoped>
+a:focus {
+  outline: none;
+  border-radius: 0.5rem;
+  outline: 1px solid lightblue;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover .slice, button:focus .slice {
+  background-color: #4B698D;
+}
+
+button:hover .slice-1, button:focus .slice-1 {
+  width: 2.5rem;
+}
+
+button:hover .slice-2, button:focus .slice-2 {
+  width: 1.5rem;
+}
+
+button:hover .slice-3, button:focus .slice-3 {
+  width: 2rem;
+}
+
+.appear {
+  transform: translateX(0);
+  transform-origin: left;
+}
+
+.disappear {
+  opacity: 0;
+  transform: translateX(-16rem);
+  transform-origin: left;
+}
+
+.opacity {
+  opacity: 1;
+}
+
+.none {
+  opacity: 0;
+}
 </style>
