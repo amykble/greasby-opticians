@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+
+## [0.3.0] | 2020-06-05
+#### Added
+* Header area of the homepage, incuding the logo, background and button
+#### Changed
+* x
+#### Fixed
+* x
+----------
 ## [0.2.2] | 2020-06-05
 #### Added
 * x
