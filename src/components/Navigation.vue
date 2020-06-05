@@ -25,7 +25,7 @@
     </nav>
   </section>
   <div class="fixed right-0 md:left-0 md:ml-64">
-    <button @click="isOpen = !isOpen" type="button" class="hamburger bg-transparent m-2 p-2 border-transparent">
+    <button @click="isOpen = !isOpen" type="button" class="hamburger m-2 p-2 w-14 border-transparent bg-transparent">
       <span class="slice slice-1 w-8 h-1 block bg-black transition-all duration-200 ease-in-out"></span>
       <span class="slice slice-2 w-10 h-1 mt-1 block bg-black transition-all duration-200 ease-in-out"></span>
       <span class="slice slice-3 w-6 h-1 mt-1 block bg-black transition-all duration-200 ease-in-out"></span>
@@ -40,7 +40,15 @@ export default {
   name: 'Navigation',
   data() {
     return {
-      isOpen: true,
+      viewport: window.innerWidth,
+      isOpen: Boolean,
+    }
+  },
+  created() {
+    if (this.viewport <= 768) {
+      this.isOpen = false
+    } else {
+      this.isOpen = true
     }
   }
 }

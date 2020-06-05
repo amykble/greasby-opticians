@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.2.2] | 2020-06-05
+#### Added
+* x
+#### Changed
+* Set the navigation to be open on desktop screens and closed on phone screens on load
+#### Fixed
+* x
+----------
 ## [0.2.1] | 2020-06-03
 #### Added
 * x
