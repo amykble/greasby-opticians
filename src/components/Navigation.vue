@@ -40,16 +40,24 @@ export default {
   name: 'Navigation',
   data() {
     return {
-      viewport: window.innerWidth,
       isOpen: Boolean,
     }
   },
-  created() {
-    if (this.viewport <= 768) {
+  methods: {
+    getViewWidth() {
+      if (process.isClient && window.innerWidth < 768) {
       this.isOpen = false
-    } else {
-      this.isOpen = true
+      console.log('false')
+      } else if (process.isClient && window.innerWidth >= 769) {
+        this.isOpen = true
+        console.log('true')
+      } else {
+        console.log('window undefined')
+      }
     }
+  },
+  mounted() {
+    this.getViewWidth()
   }
 }
 </script>
