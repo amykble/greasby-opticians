@@ -2,7 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
-
+## [0.3.1] | 2020-06-07
+#### Added
+* Added an announcement section on the homepage
+#### Changed
+* x
+#### Fixed
+* Fixed an issue with 'window is undefined' in the Navigation component
+----------
 ## [0.3.0] | 2020-06-05
 #### Added
 * Header area of the homepage, incuding the logo, background and button

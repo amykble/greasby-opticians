@@ -1,13 +1,19 @@
 <template>
 <Layout>
   <section class="h-half-view w-full">
-    <div class="absolute h-half-view w-full bg-black opacity-75"></div>
+    <div class="absolute h-half-view w-full bg-black opacity-70"></div>
     <div class="absolute w-full h-half-view flex flex-col items-center justify-center">
       <h1 class="font-title text-3xl text-blue-300 hidden md:inline">Welcome to</h1>
       <img class="h-16 md:h-32" src="../assets/images/GO-logo-white.png" alt="white logo">
       <button type="button" class="mt-10 px-3 py-1 rounded-md text-white font-body bg-greasby shadow hover:bg-greasby-light hover:shadow-lg transition-all duration-200 ease-in-out">Book An Appointment Now</button>
     </div>
     <img class="bg-img object-cover w-full h-full object-center" src="../assets/images/opticians-bg-blur.jpg" alt="opticians background">
+  </section>
+  <section class="news-section bg-green-500">
+    <div class="max-w-screen-xl mx-auto py-6 flex flex-col items-center font-body text-white">
+      <h2 class="mx-4 text-3xl text-center">Our plan for COVID-19</h2>
+      <p class="mt-2 mx-4 xl:mx-0 text-lg">Information about corona goes here. I'm baby cardigan humblebrag readymade hella. Synth butcher hell of. La croix tote bag normcore mustache truffaut food truck. Lyft small batch kale chips biodiesel. Taxidermy pug cardigan seitan cronut. Typewriter chillwave iceland pickled pinterest churchkey.</p>
+    </div>
   </section>
   <!-- <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a> -->
 </Layout>
