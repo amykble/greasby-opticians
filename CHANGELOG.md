@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+
+## [0.3.2] | 2020-06-07
+#### Added
+* Creating Netlify cms connection
+#### Changed
+* x
+#### Fixed
+* x
+----------
 ## [0.3.1] | 2020-06-07
 #### Added
 * Added an announcement section on the homepage

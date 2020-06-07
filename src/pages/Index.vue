@@ -11,8 +11,11 @@
   </section>
   <section class="news-section bg-green-500">
     <div class="max-w-screen-xl mx-auto py-6 flex flex-col items-center font-body text-white">
-      <h2 class="mx-4 text-3xl text-center">Our plan for COVID-19</h2>
-      <p class="mt-2 mx-4 xl:mx-0 text-lg">Information about corona goes here. I'm baby cardigan humblebrag readymade hella. Synth butcher hell of. La croix tote bag normcore mustache truffaut food truck. Lyft small batch kale chips biodiesel. Taxidermy pug cardigan seitan cronut. Typewriter chillwave iceland pickled pinterest churchkey.</p>
+      <div class="mx-4 text-center">
+        <h2 class="text-3xl">Our plan for COVID&#8209;19</h2>
+        <h3 class="text-sm text-green-200">Posted: 07/06/2020</h3>
+      </div>
+      <p class="mt-6 mx-4 xl:mx-0 text-lg">Information about corona goes here. I'm baby cardigan humblebrag readymade hella. Synth butcher hell of. La croix tote bag normcore mustache truffaut food truck. Lyft small batch kale chips biodiesel. Taxidermy pug cardigan seitan cronut. Typewriter chillwave iceland pickled pinterest churchkey.</p>
     </div>
   </section>
   <!-- <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a> -->
