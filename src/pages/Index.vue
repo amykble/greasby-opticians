@@ -9,18 +9,33 @@
     </div>
     <img class="bg-img object-cover w-full h-full object-center" src="../assets/images/opticians-bg-blur.jpg" alt="opticians background">
   </section>
-  <section class="news-section bg-green-500">
-    <div class="max-w-screen-xl mx-auto py-6 flex flex-col items-center font-body text-white">
+  <section class="news-section bg-purple-700">
+    <div v-for="edge in $page.updates.edges" :key="edge.node.id" class="max-w-screen-xl mx-auto py-6 flex flex-col items-center font-body text-white">
       <div class="mx-4 text-center">
-        <h2 class="text-3xl">Our plan for COVID&#8209;19</h2>
-        <h3 class="text-sm text-green-200">Posted: 07/06/2020</h3>
+        <h2 class="text-3xl">{{ edge.node.title }}</h2>
+        <h3 class="text-sm opacity-70">Posted: {{ edge.node.date }}</h3>
       </div>
-      <p class="mt-6 mx-4 xl:mx-0 text-lg">Information about corona goes here. I'm baby cardigan humblebrag readymade hella. Synth butcher hell of. La croix tote bag normcore mustache truffaut food truck. Lyft small batch kale chips biodiesel. Taxidermy pug cardigan seitan cronut. Typewriter chillwave iceland pickled pinterest churchkey.</p>
+      <p class="mt-6 mx-4 xl:mx-0 text-lg">{{ edge.node.content }}</p>
     </div>
   </section>
   <!-- <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a> -->
 </Layout>
 </template>
+
+
+<page-query>
+query Documentation {
+  updates: allDocumentation(order: ASC, limit: 1) {
+    edges {
+      node {
+        title
+        date
+        content   
+      }
+    }
+  }
+}
+</page-query>
 
 
 <script>

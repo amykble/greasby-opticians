@@ -2,7 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
-
+## [0.4.0] | 2020-06-08
+#### Added
+* Added vue Remark Plugin
+* Used the plugin to be the source of GraphQL data collection
+* Set the collected data to display on the page
+#### Changed
+* x
+#### Fixed
+* x
+----------
 ## [0.3.2] | 2020-06-07
 #### Added
 * Creating Netlify cms connection

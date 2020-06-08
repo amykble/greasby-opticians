@@ -12,7 +12,17 @@ const postcssPlugins = [
 module.exports = {
   siteName: 'Greasby Opticians',
   siteDescription: 'Description for Greasby Opticians',
-  plugins: [],
+  plugins: [
+    {
+      use: '@gridsome/vue-remark',
+      options: {
+        typeName: 'Documentation',
+        baseDir: './static/updates',
+        pathPrefix: '/updates',
+        template: './src/templates/Updates.vue'
+      }
+    }
+  ],
   css: {
     loaderOptions: {
       postcss: {
