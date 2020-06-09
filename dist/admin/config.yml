@@ -2,13 +2,13 @@ backend:
   name: git-gateway
   branch: master
 
-media_folder: "static/updates"
+media_folder: "/updates"
 public_folder: "/updates"
 
 collections:
   - name: "update"
     label: "Update"
-    folder: "static/updates"
+    folder: "/updates"
     create: true
     slug: "{{slug}}"
     fields:
