@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+
+## [0.5.0] | 2020-06-10
+#### Added
+* Added a simple footer section
+#### Changed
+* x
+#### Fixed
+* Added grisome build to Netlify build command setting
+----------
 ## [0.4.0] | 2020-06-08
 #### Added
 * Added Vue Remark plugin

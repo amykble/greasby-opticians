@@ -15,7 +15,7 @@
         <h2 class="text-3xl">{{ edge.node.title }}</h2>
         <h3 class="text-sm opacity-70">Posted: {{ edge.node.date }}</h3>
       </div>
-      <p class="mt-6 mx-4 xl:mx-0 text-lg">{{ edge.node.content }}</p>
+      <p class="mt-6 mx-6 xl:mx-0 text-lg">{{ edge.node.content }}</p>
     </div>
   </section>
   <!-- <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a> -->
