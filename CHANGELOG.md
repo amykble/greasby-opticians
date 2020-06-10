@@ -9,7 +9,7 @@ All notable changes to this project will be documented in this file.
 #### Changed
 * x
 #### Fixed
-* Added grisome build to Netlify build command setting
+* Added gridsome build to Netlify build command setting
 ----------
 ## [0.4.0] | 2020-06-08
 #### Added
