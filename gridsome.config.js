@@ -17,8 +17,8 @@ module.exports = {
       use: '@gridsome/vue-remark',
       options: {
         typeName: 'Documentation',
-        baseDir: './updates',
-        pathPrefix: '/updates',
+        baseDir: './static/updates',
+        pathPrefix: 'updates',
         template: './src/templates/Updates.vue'
       }
     }

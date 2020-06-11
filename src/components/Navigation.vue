@@ -3,7 +3,7 @@
   <section :class="isOpen ? 'appear' : 'disappear'" class="nav-container fixed z-10 h-full w-64 bg-white shadow-md transition duration-300 ease-in-out">
     <nav :class="isOpen ? 'opacity' : 'none'" class="transition duration-300 delay-300 ease-in-out">
       <a href="#" class="focus:outline-none">
-        <img src="../assets/images/GO-logo.jpg" alt="Greasby Opticians" class="w-56 ml-3 mt-4 ">
+        <g-image src="../assets/images/GO-logo.jpg" alt="Greasby Opticians" class="w-56 ml-3 mt-4 "/>
       </a>
       <hr class="w-56 ml-4 mt-12">
         <g-link to="/" class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out">Home</g-link>

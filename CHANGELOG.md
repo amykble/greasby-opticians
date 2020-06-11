@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.5.3] | 2020-06-11
+#### Added
+* x
+#### Changed
+* Added defer attribute to the Netlify index
+#### Fixed
+* x
+----------
 ## [0.5.2] | 2020-06-11
 #### Added
 * x
