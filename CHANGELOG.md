@@ -2,14 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
-
+## [0.5.1] | 2020-06-11
+#### Added
+* Added responsive design to the footer
+#### Changed
+* x
+#### Fixed
+* Removed extra console logs
+----------
 ## [0.5.0] | 2020-06-10
 #### Added
 * Added a simple footer section
 #### Changed
 * x
 #### Fixed
-* Added gridsome build to Netlify build command setting
+* Added 'gridsome build' to Netlify build command setting
 ----------
 ## [0.4.0] | 2020-06-08
 #### Added

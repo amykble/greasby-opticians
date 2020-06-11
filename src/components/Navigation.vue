@@ -47,12 +47,11 @@ export default {
     getViewWidth() {
       if (process.isClient && window.innerWidth < 768) {
       this.isOpen = false
-      console.log('false')
       } else if (process.isClient && window.innerWidth >= 769) {
         this.isOpen = true
-        console.log('true')
       } else {
         console.log('window undefined')
+        this.isOpen = true
       }
     }
   },
