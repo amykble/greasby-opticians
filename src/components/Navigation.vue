@@ -24,13 +24,13 @@
       </div>
     </nav>
   </section>
-  <div class="fixed z-10 right-0 lg:left-0 lg:ml-64">
+  <section class="fixed z-10 right-0 lg:left-0 lg:ml-64">
     <button @click="isOpen = !isOpen" type="button" class="hamburger m-2 p-2 w-14 border-transparent bg-transparent">
       <span class="slice slice-1 w-8 h-1 block bg-white transition-all duration-200 ease-in-out"></span>
       <span class="slice slice-2 w-10 h-1 mt-1 block bg-white transition-all duration-200 ease-in-out"></span>
       <span class="slice slice-3 w-6 h-1 mt-1 block bg-white transition-all duration-200 ease-in-out"></span>
     </button>
-  </div>
+  </section>
 </header>
 </template>
 
@@ -97,7 +97,6 @@ button:hover .slice-3 {
 }
 
 .disappear {
-  opacity: 0;
   transform: translateX(-16rem);
   transform-origin: left;
 }
