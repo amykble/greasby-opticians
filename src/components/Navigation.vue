@@ -6,20 +6,20 @@
         <img src="../assets/images/GO-logo.jpg" alt="Greasby Opticians" class="w-56 ml-3 mt-4 ">
       </a>
       <hr class="w-56 ml-4 mt-12">
-        <a href="#" class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out">Home</a>
-        <a href="#" class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out">About Us</a>
-        <a href="#" class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out">Our Services</a>
+        <g-link to="/" class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out">Home</g-link>
+        <g-link to="/about/" class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out">About Us</g-link>
+        <g-link to="/services/" class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out">Our Services</g-link>
       <hr class="w-56 ml-4">
       <hr class="w-56 ml-4 mt-12">
-        <a href="#" class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out">NHS</a>
-        <a href="#" class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out">Kids</a>
-        <a href="#" class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out">Frames</a>
-        <a href="#" class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out">Contact Lenses</a>
+        <g-link to="//" class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out">NHS</g-link>
+        <g-link to="//" class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out">Kids</g-link>
+        <g-link to="//" class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out">Frames</g-link>
+        <g-link to="//" class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out">Contact Lenses</g-link>
       <hr class="w-56 ml-4">
       <div class="absolute bottom-0">
         <hr class="w-56 ml-4">
-          <a href="#" class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out">FAQ</a>
-          <a href="#" class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out">Contact Us</a>
+        <g-link to="//" class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out">FAQ</g-link>
+        <g-link to="//" class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out">Contact Us</g-link>
         <hr class="w-56 ml-4 mb-4">
       </div>
     </nav>
@@ -45,9 +45,9 @@ export default {
   },
   methods: {
     getViewWidth() {
-      if (process.isClient && window.innerWidth < 768) {
+      if (process.isClient && window.innerWidth < 1024) {
       this.isOpen = false
-      } else if (process.isClient && window.innerWidth >= 769) {
+      } else if (process.isClient && window.innerWidth >= 1025) {
         this.isOpen = true
       } else {
         console.log('window undefined')
