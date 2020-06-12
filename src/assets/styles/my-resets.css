@@ -1,19 +1,28 @@
 /*** ! MY RESETS ! ***/
 
 html {
-    box-sizing: border-box;
-    font-size: 100%;
+	box-sizing: border-box;
+	font-size: 100%;
 }
 
-*, *::before, *::after {
-    box-sizing: inherit;
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
 }
 
 body {
-    background-color: #ffffff;
-    font-family: sans-serif;
+	background-color: #ffffff;
+	font-family: sans-serif;
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
+}
+
+::selection {
+	background: #24282e;
+}
+::-moz-selection {
+	background: #24282e;
 }
