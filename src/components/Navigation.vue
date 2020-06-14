@@ -45,9 +45,9 @@ export default {
   },
   methods: {
     getViewWidth() {
-      if (process.isClient && window.innerWidth < 1024) {
+      if (process.isClient && window.innerWidth < 1280) {
       this.isOpen = false
-      } else if (process.isClient && window.innerWidth >= 1025) {
+      } else if (process.isClient && window.innerWidth >= 1281) {
         this.isOpen = true
       } else {
         console.log('window undefined')
