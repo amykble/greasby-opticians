@@ -1,111 +1,147 @@
 <template>
-<header class="font-body">
-  <section :class="isOpen ? 'appear' : 'disappear'" class="nav-container fixed z-10 h-full w-64 bg-white shadow-md transition duration-300 ease-in-out">
-    <nav :class="isOpen ? 'opacity' : 'none'" class="transition duration-300 delay-300 ease-in-out">
-      <a href="#" class="focus:outline-none">
-        <g-image src="../assets/images/GO-logo.jpg" alt="Greasby Opticians" class="w-56 ml-3 mt-4 "/>
-      </a>
-      <hr class="w-56 ml-4 mt-12">
-        <g-link to="/" class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out">Home</g-link>
-        <g-link to="/about/" class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out">About Us</g-link>
-        <g-link to="/services/" class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out">Our Services</g-link>
-      <hr class="w-56 ml-4">
-      <hr class="w-56 ml-4 mt-12">
-        <g-link to="//" class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out">NHS</g-link>
-        <g-link to="//" class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out">Kids</g-link>
-        <g-link to="//" class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out">Frames</g-link>
-        <g-link to="//" class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out">Contact Lenses</g-link>
-      <hr class="w-56 ml-4">
-      <div class="absolute bottom-0">
-        <hr class="w-56 ml-4">
-        <g-link to="//" class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out">FAQ</g-link>
-        <g-link to="//" class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out">Contact Us</g-link>
-        <hr class="w-56 ml-4 mb-4">
-      </div>
-    </nav>
-  </section>
-  <section class="fixed z-10 right-0 lg:left-0 lg:ml-64">
-    <button @click="isOpen = !isOpen" type="button" class="hamburger m-2 p-2 w-14 border-transparent bg-transparent">
-      <span class="slice slice-1 w-8 h-1 block bg-white transition-all duration-200 ease-in-out"></span>
-      <span class="slice slice-2 w-10 h-1 mt-1 block bg-white transition-all duration-200 ease-in-out"></span>
-      <span class="slice slice-3 w-6 h-1 mt-1 block bg-white transition-all duration-200 ease-in-out"></span>
-    </button>
-  </section>
-</header>
+	<header class="font-body">
+		<section
+			:class="isOpen ? 'appear' : 'disappear'"
+			class="nav-container fixed z-10 h-full w-64 bg-white shadow-md transition duration-300 ease-in-out"
+		>
+			<nav :class="isOpen ? 'opacity' : 'none'" class="transition duration-300 delay-300 ease-in-out">
+				<a href="#" class="focus:outline-none">
+					<g-image src="../assets/images/GO-logo.jpg" alt="Greasby Opticians" class="w-56 ml-3 mt-4" />
+				</a>
+				<hr class="w-56 ml-4 mt-12" />
+				<g-link
+					to="/"
+					class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out"
+				>Home</g-link>
+				<g-link
+					to="/about/"
+					class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out"
+				>About Us</g-link>
+				<g-link
+					to="/services/"
+					class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out"
+				>Our Services</g-link>
+				<hr class="w-56 ml-4" />
+				<hr class="w-56 ml-4 mt-12" />
+				<g-link
+					to="//"
+					class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out"
+				>NHS</g-link>
+				<g-link
+					to="//"
+					class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out"
+				>Kids</g-link>
+				<g-link
+					to="//"
+					class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out"
+				>Frames</g-link>
+				<g-link
+					to="//"
+					class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out"
+				>Contact Lenses</g-link>
+				<hr class="w-56 ml-4" />
+				<div class="absolute bottom-0">
+					<hr class="w-56 ml-4" />
+					<g-link
+						to="//"
+						class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out"
+					>FAQ</g-link>
+					<g-link
+						to="//"
+						class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out"
+					>Contact Us</g-link>
+					<hr class="w-56 ml-4 mb-4" />
+				</div>
+			</nav>
+		</section>
+		<section class="fixed z-10 right-0 xl:left-0 xl:ml-64">
+			<button
+				@click="isOpen = !isOpen"
+				type="button"
+				class="hamburger m-2 p-2 w-14 border-transparent bg-transparent"
+			>
+				<span class="slice slice-1 w-8 h-1 block bg-white transition-all duration-200 ease-in-out"></span>
+				<span
+					class="slice slice-2 w-10 h-1 mt-1 block bg-white transition-all duration-200 ease-in-out"
+				></span>
+				<span class="slice slice-3 w-6 h-1 mt-1 block bg-white transition-all duration-200 ease-in-out"></span>
+			</button>
+		</section>
+	</header>
 </template>
 
 
 <script>
 export default {
-  name: 'Navigation',
-  data() {
-    return {
-      isOpen: Boolean,
-    }
-  },
-  methods: {
-    getViewWidth() {
-      if (process.isClient && window.innerWidth < 1280) {
-      this.isOpen = false
-      } else if (process.isClient && window.innerWidth >= 1281) {
-        this.isOpen = true
-      } else {
-        console.log('window undefined')
-        this.isOpen = true
-      }
-    }
-  },
-  mounted() {
-    this.getViewWidth()
-  }
-}
+	name: "Navigation",
+	data() {
+		return {
+			isOpen: Boolean
+		};
+	},
+	methods: {
+		getViewWidth() {
+			if (process.isClient && window.innerWidth < 1280) {
+				this.isOpen = false;
+			} else if (process.isClient && window.innerWidth >= 1281) {
+				this.isOpen = true;
+			} else {
+				console.log("window undefined");
+				this.isOpen = true;
+			}
+		}
+	},
+	mounted() {
+		this.getViewWidth();
+	}
+};
 </script>
 
 
 <style scoped>
 a:focus {
-  outline: none;
+	outline: none;
 }
 
 button:focus {
-  outline: none;
+	outline: none;
 }
 
 button:focus {
-  outline: 1px solid #90cdf4;
+	outline: 1px solid #90cdf4;
 }
 
 button:hover .slice {
-  @apply bg-blue-300;
+	@apply bg-blue-300;
 }
 
 button:hover .slice-1 {
-  width: 2.5rem;
+	width: 2.5rem;
 }
 
 button:hover .slice-2 {
-  width: 1.5rem;
+	width: 1.5rem;
 }
 
 button:hover .slice-3 {
-  width: 2rem;
+	width: 2rem;
 }
 
 .appear {
-  transform: translateX(0);
-  transform-origin: left;
+	transform: translateX(0);
+	transform-origin: left;
 }
 
 .disappear {
-  transform: translateX(-16rem);
-  transform-origin: left;
+	transform: translateX(-16rem);
+	transform-origin: left;
 }
 
 .opacity {
-  opacity: 1;
+	opacity: 1;
 }
 
 .none {
-  opacity: 0;
+	opacity: 0;
 }
 </style>
