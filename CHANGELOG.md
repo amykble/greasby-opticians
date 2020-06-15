@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.6.0] | 2020-06-15
+
+#### Added
+
+- Added a review section
+- Added a main body section to the homepage
+
+#### Changed
+
+- x
+
+#### Fixed
+
+- x
+
+---
+
 ## [0.5.4] | 2020-06-13
 
 #### Added
