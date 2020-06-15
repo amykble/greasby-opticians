@@ -31,7 +31,7 @@
           <h3 class="text-sm opacity-70">Posted: {{ edge.node.date }}</h3>
         </div>
         <p class="mt-6 mx-6 xl:mx-0 text-lg">{{ edge.node.content }}</p>
-        <g-link to="/updates/" class="updates focus:outline-none">
+        <g-link to="/announcements/" class="updates focus:outline-none">
           <button
             type="button"
             class="announcements mt-6 px-3 py-1 rounded-md text-white font-body bg-white bg-opacity-10 shadow-md hover:bg-opacity-30 hover:shadow-lg transition-all duration-200 ease-in-out"
