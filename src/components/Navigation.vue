@@ -61,11 +61,12 @@
         </div>
       </nav>
     </section>
-    <section class="fixed z-10 right-0 xl:left-0 xl:ml-64">
+    <section class="fixed z-10">
       <button
         @click="isOpen = !isOpen"
+        :class="isOpen ? 'ml-66' : 'ml-2'"
         type="button"
-        class="hamburger m-2 p-2 w-14 border-transparent bg-transparent"
+        class="hamburger m-2 p-2 w-14 border-transparent bg-transparent transition-all duration-300 ease-in-out"
       >
         <span class="slice slice-1 w-8 h-1 block bg-white transition-all duration-200 ease-in-out"></span>
         <span
@@ -116,8 +117,8 @@ button:focus {
 	outline: none;
 }
 
-button:focus {
-	outline: 1px solid #90cdf4;
+button:focus .slice {
+	@apply bg-blue-300;
 }
 
 button:hover .slice {
