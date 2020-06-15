@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{177:function(e,t,n){"use strict";n.r(t);var s={metaInfo:{title:"Services"}},i=n(18),r=Object(i.a)(s,(function(){var e=this.$createElement,t=this._self._c||e;return t("Layout",[t("h1",[this._v("Our Services")])])}),[],!1,null,null,null);t.default=r.exports}}]);
