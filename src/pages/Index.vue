@@ -96,7 +96,7 @@
       <div class="absolute h-half-view w-full flex flex-col items-center justify-center font-body">
         <h1 class="mx-6 text-3xl text-greasby">Reviews</h1>
         <div>
-          <div class="mt-4 mx-6 bg-white w-96 p-4 rounded-md shadow-md opacity-70">
+          <div class="review-container mt-4 mx-6 bg-white w-96 p-4 rounded-md shadow-md">
             <h2 class="text-xl">{{ reviews.title }}</h2>
             <span class="text-greasby">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
             <p>{{ reviews.content }}</p>
@@ -161,5 +161,38 @@ button:hover {
 
 .announcements:focus {
 	@apply outline-none bg-opacity-30 shadow-lg;
+}
+
+@keyframes fade {
+	0% {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	20% {
+		opacity: 0.8;
+		transform: translateY(0px);
+	}
+	40% {
+		opacity: 0.8;
+		transform: translateY(0px);
+	}
+	60% {
+		opacity: 0.8;
+		transform: translateY(0px);
+	}
+	80% {
+		opacity: 0.8;
+		transform: translateY(0px);
+	}
+	100% {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+}
+
+.review-container {
+	animation-name: fade;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
 }
 </style>
