@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.6.3] | 2020-06-16
+
+#### Added
+
+- x
+
+#### Changed
+
+- Seperation of concerns
+
+#### Fixed
+
+- x
+
+---
+
 ## [0.6.2] | 2020-06-16
 
 #### Added

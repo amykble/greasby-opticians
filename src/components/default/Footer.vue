@@ -81,13 +81,13 @@
       <div class="ml-0 mt-1 sm:ml-2 sm:mt-0 flex items-center">
         <p>Created with</p>
         <a href="https://gridsome.org" target="_blank" rel="noopener">
-          <img class="h-3 ml-2" src="../assets/images/amykble/gridsome.svg" alt="gridsome" />
+          <img class="h-3 ml-2" src="../../assets/images/amykble/gridsome.svg" alt="gridsome" />
         </a>
         <a href="https://vuejs.org" target="_blank" rel="noopener">
-          <img class="h-3 ml-2" src="../assets/images/amykble/vue.svg.png" alt="vue" />
+          <img class="h-3 ml-2" src="../../assets/images/amykble/vue.svg.png" alt="vue" />
         </a>
         <a href="https://tailwindcss.com" target="_blank" rel="noopener">
-          <img class="h-3 ml-2" src="..//assets/images/amykble/tailwind.png" alt="tailwind" />
+          <img class="h-3 ml-2" src="../../assets/images/amykble/tailwind.png" alt="tailwind" />
         </a>
         <p class="ml-2">
           by

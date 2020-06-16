@@ -10,7 +10,7 @@
       >
         <a href="#" class="focus:outline-none">
           <g-image
-            src="../assets/images/GO-logo.jpg"
+            src="../../assets/images/GO-logo.jpg"
             alt="Greasby Opticians"
             class="w-56 ml-3 mt-4"
           />
@@ -70,7 +70,7 @@
         @click="isOpen = !isOpen"
         :class="isOpen ? 'ml-66' : 'ml-2'"
         type="button"
-        class="hamburger m-2 p-2 w-14 border-transparent bg-transparent transition-all duration-300 delay-100 ease-in-out"
+        class="hamburger m-2 p-2 w-14 border-transparent bg-transparent transition-all duration-200 delay-100 ease-in-out"
       >
         <span class="slice slice-1 w-8 h-1 block bg-white transition-all duration-200 ease-in-out"></span>
         <span
