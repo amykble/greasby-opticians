@@ -11,7 +11,7 @@ All notable changes to this project will be documented in this file.
 #### Changed
 
 - Created timed interval for reviews
-- Chnaged colour of hamburger
+- Changed colour of hamburger
 - Made the review section background darker
 
 #### Fixed

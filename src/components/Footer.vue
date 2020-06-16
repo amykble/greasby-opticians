@@ -1,7 +1,7 @@
 <template>
   <footer class="w-full bg-gray-900">
-    <section class="block sm:flex max-w-screen-xl mx-auto">
-      <nav class="pt-6 pb-0 sm:pb-8 pr-6 pl-6 xl:pr-12 xl:pl-0 text-white font-body">
+    <section class="block sm:flex max-w-screen-lg mx-auto">
+      <nav class="pt-6 pb-0 sm:pb-8 pr-6 pl-6 lg:pr-12 lg:pl-0 text-white font-body">
         <h1 class="text-xl text-greasby-light">Navigate</h1>
         <hr class="my-2 opacity-50" />
         <div class="flex">
@@ -31,7 +31,7 @@
           </section>
         </div>
       </nav>
-      <nav class="pt-6 pb-0 sm:pb-8 px-6 sm:px-4 xl:px-0 text-white font-body">
+      <nav class="pt-6 pb-0 sm:pb-8 px-6 sm:px-4 lg:px-0 text-white font-body">
         <h1 class="text-xl text-greasby-light">Contact Us</h1>
         <hr class="my-2 opacity-50" />
         <div class="flex flex-col">
@@ -75,7 +75,7 @@
       </nav>
     </section>
     <section
-      class="max-w-screen-xl mx-auto block sm:flex pl-6 pt-8 pb-6 xl:px-0 text-gray-400 font-body"
+      class="max-w-screen-lg mx-auto block sm:flex pl-6 pt-8 pb-6 lg:px-0 text-gray-400 font-body"
     >
       <h1 class="text-greasby-light">Copyright &copy; {{ date }} Greasby Opticians</h1>
       <div class="ml-0 mt-1 sm:ml-2 sm:mt-0 flex items-center">
