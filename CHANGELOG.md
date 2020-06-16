@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.6.2] | 2020-06-16
+
+#### Added
+
+- Added navigation large area for close
+
+#### Changed
+
+- Chnaged navigation animation
+
+#### Fixed
+
+- x
+
+---
+
 ## [0.6.1] | 2020-06-16
 
 #### Added
