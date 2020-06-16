@@ -21,13 +21,17 @@
           class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out"
         >Home</g-link>
         <g-link
-          to="/about/"
+          to="/about"
           class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out"
         >About Us</g-link>
         <g-link
-          to="/services/"
+          to="/services"
           class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out"
         >Our Services</g-link>
+        <g-link
+          to="/tech"
+          class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out"
+        >New Technology</g-link>
         <hr class="w-56 ml-4" />
         <hr class="w-56 ml-4 mt-12" />
         <g-link
@@ -69,13 +73,13 @@
         class="hamburger m-2 p-2 w-14 border-transparent bg-transparent transition-all duration-300 ease-in-out"
       >
         <span
-          class="slice slice-1 w-8 h-1 block bg-gray-200 transition-all duration-200 ease-in-out"
+          class="slice slice-1 w-8 h-1 block bg-greasby transition-all duration-200 ease-in-out"
         ></span>
         <span
-          class="slice slice-2 w-10 h-1 mt-1 block bg-gray-200 transition-all duration-200 ease-in-out"
+          class="slice slice-2 w-10 h-1 mt-1 block bg-greasby transition-all duration-200 ease-in-out"
         ></span>
         <span
-          class="slice slice-3 w-6 h-1 mt-1 block bg-gray-200 transition-all duration-200 ease-in-out"
+          class="slice slice-3 w-6 h-1 mt-1 block bg-greasby transition-all duration-200 ease-in-out"
         ></span>
       </button>
     </section>

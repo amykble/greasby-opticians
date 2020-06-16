@@ -15,6 +15,10 @@
               class="my-1 hover:text-gray-500 transition duration-300 ease-in-out"
               href="#"
             >Our Services</a>
+            <a
+              class="my-1 hover:text-gray-500 transition duration-300 ease-in-out"
+              href="#"
+            >New Technology</a>
           </section>
           <section class="flex flex-col ml-6">
             <a class="my-1 hover:text-gray-500 transition duration-300 ease-in-out" href="#">NHS</a>

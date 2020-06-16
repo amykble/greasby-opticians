@@ -42,7 +42,7 @@
     <section class="services-section max-w-screen-xl mx-auto font-body">
       <h1
         class="text-2xl mt-8 text-center mx-6"
-      >We Offer a range of Services, Including&#46;&#46;&#46;</h1>
+      >We Offer a Range of Services, Including&#46;&#46;&#46;</h1>
       <main class="my-8 flex flex-col sm:flex-row items-center justify-evenly">
         <div
           class="w-48 h-48 mb-6 sm:mb-0 rounded-full bg-gray-200 flex flex-col justify-center items-center"
@@ -92,22 +92,17 @@
         class="mt-4 mb-10 mx-6 xl:mx-0"
       >To find out more, visit our 'About Us' page or see 'Our Services', which are both linked above.</p>
     </section>
-    <section class="relative h-half-view w-full">
-      <div class="absolute h-half-view w-full flex flex-col items-center justify-center font-body">
-        <h1 class="mx-6 text-3xl text-greasby">Reviews</h1>
-        <div>
-          <div class="review-container mt-4 mx-6 bg-white w-96 p-4 rounded-md shadow-md">
-            <h2 class="text-xl">{{ reviews.title }}</h2>
+    <section class="review-main-container pt-6 px-2 sm:px-6 pb-12 w-full font-body">
+      <h1 class="text-3xl text-center text-greasby">Reviews</h1>
+      <div class="flex items-center justify-center">
+        <div class="relative mt-4 w-72 sm:w-96 h-84 sm:h-64">
+          <div class="absolute review-container bg-white w-72 sm:w-96 p-4 rounded-md shadow-md">
+            <h2 class="text-xl">{{ review[reviewInt].title }}</h2>
             <span class="text-greasby">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-            <p>{{ reviews.content }}</p>
+            <p>{{ review[reviewInt].content }}</p>
           </div>
         </div>
       </div>
-      <img
-        class="bg-img object-cover w-full h-full object-center"
-        src="../assets/images/triangles-bg.svg"
-      />
-      <!-- I customized this cool background on the homepage at SVGBackgrounds.com. -->
     </section>
   </Layout>
 </template>
@@ -135,12 +130,40 @@ export default {
 	},
 	data() {
 		return {
-			reviews: {
-				title: 'Excellent Care',
-				content:
-					'Poutine woke shabby chic plaid distillery yr selvage forage tousled chambray aesthetic hammock fanny pack hot chicken ennui. Semiotics marfa lomo photo booth.',
-			},
+			reviewInt: 0,
+			review: [
+				{
+					title: 'Excellent Care',
+					content:
+						'Poutine woke shabby chic plaid distillery yr selvage forage tousled chambray aesthetic hammock fanny pack hot chicken ennui. Semiotics marfa lomo photo booth.',
+				},
+				{
+					title: 'Amazing Serivce',
+					content:
+						'Food truck ugh art party, pok pok VHS +1 occupy kombucha cliche wolf meditation. Coloring book blog banjo, vape kogi tumeric fanny pack mlkshk keffiyeh master cleanse typewriter schlitz.',
+				},
+				{
+					title: 'Been Coming Here For Years',
+					content:
+						'Palo santo hashtag keffiyeh, meditation brooklyn franzen coloring book. Hell of affogato jianbing mustache freegan. Kickstarter yuccie craft beer pug green juice etsy vape deep v stumptown. Paleo fanny pack cold-pressed cray, etsy man bun mixtape polaroid.',
+				},
+			],
 		}
+	},
+	methods: {
+		changeReview() {
+			if (this.reviewInt == this.review.length - 1) {
+				this.reviewInt = 0
+			} else if (this.reviewInt < this.review.length) {
+				this.reviewInt++
+			}
+		},
+		reviewInterval() {
+			setInterval(this.changeReview, 5000)
+		},
+	},
+	mounted() {
+		this.reviewInterval()
 	},
 }
 </script>
@@ -168,6 +191,10 @@ button:hover {
 		opacity: 0;
 		transform: translateY(20px);
 	}
+	5% {
+		opacity: 0;
+		transform: translateY(20px);
+	}
 	20% {
 		opacity: 0.8;
 		transform: translateY(0px);
@@ -184,6 +211,10 @@ button:hover {
 		opacity: 0.8;
 		transform: translateY(0px);
 	}
+	95% {
+		opacity: 0;
+		transform: translateY(20px);
+	}
 	100% {
 		opacity: 0;
 		transform: translateY(20px);
@@ -194,5 +225,11 @@ button:hover {
 	animation-name: fade;
 	animation-duration: 5s;
 	animation-iteration-count: infinite;
+}
+
+.review-main-container {
+	background-image: url('../assets/images/triangles-bg.svg');
+	background-position: center;
+	/* I customized this cool background on the homepage at SVGBackgrounds.com. */
 }
 </style>

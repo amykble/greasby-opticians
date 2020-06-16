@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.6.1] | 2020-06-16
+
+#### Added
+
+- x
+
+#### Changed
+
+- Created timed interval for reviews
+- Chnaged colour of hamburger
+- Made the review section background darker
+
+#### Fixed
+
+- x
+
+---
+
 ## [0.6.0] | 2020-06-15
 
 #### Added
