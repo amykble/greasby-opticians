@@ -70,14 +70,20 @@
         @click="isOpen = !isOpen"
         :class="isOpen ? 'ml-66' : 'ml-2'"
         type="button"
-        class="hamburger m-2 p-2 w-14 border-transparent bg-transparent transition-all duration-200 delay-100 ease-in-out"
+        id="hamburger"
+        class="hamburger m-2 p-2 w-14 border-transparent bg-transparent transition-all duration-300 delay-100 ease-in-out"
       >
-        <span class="slice slice-1 w-8 h-1 block bg-white transition-all duration-200 ease-in-out"></span>
         <span
-          class="slice slice-2 w-10 h-1 mt-1 block bg-white transition-all duration-200 ease-in-out"
+          :class="isWhite ? 'bg-white' : 'bg-greasby'"
+          class="slice slice-1 w-8 h-1 block transition-all duration-200 ease-in-out"
         ></span>
         <span
-          class="slice slice-3 w-6 h-1 mt-1 block bg-white transition-all duration-200 ease-in-out"
+          :class="isWhite ? 'bg-white' : 'bg-greasby'"
+          class="slice slice-2 w-10 h-1 mt-1 block transition-all duration-200 ease-in-out"
+        ></span>
+        <span
+          :class="isWhite ? 'bg-white' : 'bg-greasby'"
+          class="slice slice-3 w-6 h-1 mt-1 block transition-all duration-200 ease-in-out"
         ></span>
       </button>
     </section>
@@ -96,7 +102,11 @@ export default {
 	data() {
 		return {
 			isOpen: false,
+			isWhite: true,
 		}
+	},
+	methods: {
+		lazyLoad() {},
 	},
 }
 </script>
@@ -111,10 +121,7 @@ button:focus {
 	outline: none;
 }
 
-button:focus .slice {
-	@apply bg-blue-300;
-}
-
+button:focus .slice,
 button:hover .slice {
 	@apply bg-blue-300;
 }

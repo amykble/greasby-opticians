@@ -74,7 +74,7 @@ export default {
 			setInterval(this.changeReview, 5000)
 		},
 	},
-	mounted() {
+	created() {
 		this.reviewInterval()
 	},
 }
