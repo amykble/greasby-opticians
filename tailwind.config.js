@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'greasby': '#4B698D',
+        greasby: '#4B698D',
         'greasby-light': '#6082ab',
       },
       spacing: {
@@ -34,6 +34,7 @@ module.exports = {
         xl: '0.75rem',
         '2xl': '1rem',
         '3xl': '1.25rem',
+        max: '100%',
       },
       opacity: {
         '10': '.1',

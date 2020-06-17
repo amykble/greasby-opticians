@@ -13,7 +13,7 @@
     <p class="mt-8 text-center">
       To leave a review
       <a
-        class="text-blue-500"
+        class="click-here text-blue-500"
         href="https://www.nhs.uk/services/optician/greasby-opticians/P17109/ratings-and-reviews"
         target="_blank"
         rel="noopener"
@@ -126,5 +126,10 @@ export default {
 	background-image: url('../../assets/images/triangles-bg.svg');
 	background-position: center;
 	/* I customized this cool background on the homepage at SVGBackgrounds.com. */
+}
+
+.click-here:focus,
+.click-here:hover {
+	@apply outline-none text-blue-300;
 }
 </style>

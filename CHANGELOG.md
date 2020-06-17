@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.7.0] | 2020-06-17
+
+#### Added
+
+- Built the about page
+
+#### Changed
+
+- x
+
+#### Fixed
+
+- x
+
+---
+
 ## [0.6.3] | 2020-06-16
 
 #### Added

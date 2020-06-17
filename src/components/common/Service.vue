@@ -21,7 +21,7 @@
         <p>Contact Lenses</p>
       </div>
     </main>
-    <div class="mx-6 lg:ml-0">
+    <div class="mx-6">
       <hr class="mt-12 mb-2" />
       <g-link to="/about" class="focus:outline-none mr-10">
         <button
@@ -43,13 +43,13 @@
       </g-link>
     </div>
     <p
-      class="mt-8 mx-6 lg:mx-0"
+      class="mt-8 mx-6"
     >Greasby Opticians is an independent opticians which offers excellent quality eyecare and an extensive range of spectacle frames and contact lenses. We have served the community of Greasby for over 30 years. Many of our patients have been attending from their childhood and now bring their own children.</p>
     <p
-      class="mt-4 mx-6 lg:mx-0"
+      class="mt-4 mx-6"
     >We pride ourselves in providing a warm and comfortable environment where patients can feel at ease. We are confident that patients will be delighted at the personal service that we provide at Greasby Opticians.</p>
     <p
-      class="mt-4 mb-10 mx-6 lg:mx-0"
+      class="mt-4 mb-10 mx-6"
     >To find out more, visit our 'About Us' page or see 'Our Services', which are both linked above.</p>
   </section>
 </template>
@@ -63,5 +63,9 @@ export default {
 <style scoped>
 button:hover {
 	transform: translateY(-3px);
+}
+
+.appointment:focus {
+	@apply outline-none bg-greasby-light shadow-lg;
 }
 </style>

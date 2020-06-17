@@ -9,11 +9,11 @@
         <h2 class="text-3xl">{{ edge.node.title }}</h2>
         <h3 class="text-sm opacity-70">Posted: {{ edge.node.date }}</h3>
       </div>
-      <p class="mt-6 mx-6 lg:mx-0 text-lg">{{ edge.node.content }}</p>
+      <p class="mt-6 mx-6 text-lg">{{ edge.node.content }}</p>
       <g-link to="/announcements" class="focus:outline-none">
         <button
           type="button"
-          class="fade-in mt-6 px-3 py-1 rounded-md text-white font-body bg-white bg-opacity-10 shadow-md hover:bg-opacity-30 hover:shadow-lg transition-all duration-200 ease-in-out"
+          class="announcements fade-in mt-6 px-3 py-1 rounded-md text-white font-body bg-white bg-opacity-10 shadow-md hover:bg-opacity-30 hover:shadow-lg transition-all duration-200 ease-in-out"
         >View Previous Anouncements</button>
       </g-link>
     </article>

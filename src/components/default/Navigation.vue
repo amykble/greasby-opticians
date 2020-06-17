@@ -73,18 +73,9 @@
         id="hamburger"
         class="hamburger m-2 p-2 w-14 border-transparent bg-transparent transition-all duration-300 delay-100 ease-in-out"
       >
-        <span
-          :class="isWhite ? 'bg-white' : 'bg-greasby'"
-          class="slice slice-1 w-8 h-1 block transition-all duration-200 ease-in-out"
-        ></span>
-        <span
-          :class="isWhite ? 'bg-white' : 'bg-greasby'"
-          class="slice slice-2 w-10 h-1 mt-1 block transition-all duration-200 ease-in-out"
-        ></span>
-        <span
-          :class="isWhite ? 'bg-white' : 'bg-greasby'"
-          class="slice slice-3 w-6 h-1 mt-1 block transition-all duration-200 ease-in-out"
-        ></span>
+        <span class="slice slice-1 w-8 h-1 block transition-all duration-200 ease-in-out"></span>
+        <span class="slice slice-2 w-10 h-1 mt-1 block transition-all duration-200 ease-in-out"></span>
+        <span class="slice slice-3 w-6 h-1 mt-1 block transition-all duration-200 ease-in-out"></span>
       </button>
     </section>
     <section
@@ -102,11 +93,7 @@ export default {
 	data() {
 		return {
 			isOpen: false,
-			isWhite: true,
 		}
-	},
-	methods: {
-		lazyLoad() {},
 	},
 }
 </script>
