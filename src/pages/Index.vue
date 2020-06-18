@@ -22,10 +22,10 @@ query Documentation {
 </page-query>
 
 <script>
-import Landing from '../components/common/Landing'
-import News from '../components/common/News'
-import Service from '../components/common/Service'
-import Review from '../components/common/Review'
+import Landing from '../components/modules/Landing'
+import News from '../components/modules/News'
+import Service from '../components/modules/Service'
+import Review from '../components/modules/Review'
 export default {
 	metaInfo: {
 		title: 'Home',

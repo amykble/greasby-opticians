@@ -25,19 +25,19 @@
           </section>
           <section class="flex flex-col ml-6">
             <g-link
-              to="/"
+              to="/nhs"
               class="my-1 hover:text-gray-500 focus:outline-none focus:text-gray-500 transition duration-300 ease-in-out"
             >NHS</g-link>
             <g-link
-              to="/"
+              to="/kids"
               class="my-1 hover:text-gray-500 focus:outline-none focus:text-gray-500 transition duration-300 ease-in-out"
             >Kids</g-link>
             <g-link
-              to="/"
+              to="/frames"
               class="my-1 hover:text-gray-500 focus:outline-none focus:text-gray-500 transition duration-300 ease-in-out"
             >Frames</g-link>
             <g-link
-              to="/"
+              to="/contact-lenses"
               class="my-1 hover:text-gray-500 focus:outline-none focus:text-gray-500 transition duration-300 ease-in-out"
             >Contact Lenses</g-link>
           </section>

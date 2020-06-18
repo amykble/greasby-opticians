@@ -35,7 +35,7 @@
           class="appointment mt-6 px-3 py-1 rounded-md text-white font-body bg-white bg-greasby shadow-md hover:bg-greasby-light hover:shadow-lg transition-all duration-200 ease-in-out"
         >Our Services</button>
       </g-link>
-      <g-link to="/" class="focus:outline-none">
+      <g-link to="/contact" class="focus:outline-none">
         <button
           type="button"
           class="appointment mt-6 px-3 py-1 rounded-md text-white font-body bg-white bg-greasby shadow-md hover:bg-greasby-light hover:shadow-lg transition-all duration-200 ease-in-out"

@@ -1,10 +1,10 @@
 <template>
-  <Layout>contact</Layout>
+  <Layout>Contact Us</Layout>
 </template>
 
 <script>
 export default {}
 </script>
 
-<style>
+<style scoped>
 </style>

@@ -29,36 +29,36 @@
           class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out"
         >Our Services</g-link>
         <g-link
-          to="/tech"
+          to="/technology"
           class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out"
         >New Technology</g-link>
         <hr class="w-56 ml-4" />
         <hr class="w-56 ml-4 mt-12" />
         <g-link
-          to="/"
+          to="/nhs"
           class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out"
         >NHS</g-link>
         <g-link
-          to="/"
+          to="/kids"
           class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out"
         >Kids</g-link>
         <g-link
-          to="/"
+          to="/frames"
           class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out"
         >Frames</g-link>
         <g-link
-          to="/"
+          to="/contact-lenses"
           class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out"
         >Contact Lenses</g-link>
         <hr class="w-56 ml-4" />
         <div class="absolute bottom-0">
           <hr class="w-56 ml-4" />
           <g-link
-            to="/"
+            to="/faq"
             class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out"
           >FAQ</g-link>
           <g-link
-            to="/"
+            to="/contact"
             class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out"
           >Contact Us</g-link>
           <hr class="w-56 ml-4 mb-4" />

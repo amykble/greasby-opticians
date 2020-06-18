@@ -8,10 +8,12 @@
         src="../../assets/images/GO-logo-white.png"
         alt="white logo"
       />
-      <button
-        type="button"
-        class="appointment fade-in mt-10 px-3 py-1 rounded-md text-white font-body bg-greasby shadow hover:bg-greasby-light hover:shadow-lg transition-all duration-200 ease-in-out"
-      >Book An Appointment Now</button>
+      <g-link to="/contact">
+        <button
+          type="button"
+          class="appointment fade-in mt-10 px-3 py-1 rounded-md text-white font-body bg-greasby shadow hover:bg-greasby-light hover:shadow-lg transition-all duration-200 ease-in-out"
+        >Book An Appointment Now</button>
+      </g-link>
     </div>
     <g-image
       class="bg-img object-cover w-full h-full object-center"
