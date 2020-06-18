@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[11],{201:function(t,e,n){"use strict";n.r(e);var c={},s=n(18),u=Object(s.a)(c,(function(){var t=this.$createElement;return(this._self._c||t)("Layout",[this._v("NHS")])}),[],!1,null,"de72cc70",null);e.default=u.exports}}]);

@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{205:function(t,e,n){"use strict";n.r(e);var s={},a=n(18),c=Object(a.a)(s,(function(){var t=this.$createElement;return(this._self._c||t)("Layout",[this._v("Contact Lenses")])}),[],!1,null,"7e6bd6f2",null);e.default=c.exports}}]);

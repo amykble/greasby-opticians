@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{206:function(t,e,n){"use strict";n.r(e);var s={},a=n(18),r=Object(a.a)(s,(function(){var t=this.$createElement;return(this._self._c||t)("Layout",[this._v("Frames")])}),[],!1,null,"6895d658",null);e.default=r.exports}}]);
