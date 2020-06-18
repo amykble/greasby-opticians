@@ -4,6 +4,11 @@
       <h1 class="text-4xl text-greasby">Our Services</h1>
       <hr class="w-24" />
     </section>
+    <section class="max-w-screen-lg mx-auto mt-10">
+      <main class="mx-6">
+        <p>Here at Greasby Opticians we are offering many services in addition to what people would think is the standard role of the optician. All our optometrists have undertaken specialised training on a number of specific eye conditions. Our expertise in these areas supports the role of the hospital eye specialists and is funded by the NHS and Wirral PCT.</p>
+      </main>
+    </section>
     <section class="services-section max-w-screen-lg mx-auto font-body">
       <h1
         class="text-2xl mt-10 text-center mx-6"
@@ -122,6 +127,18 @@
         </div>
       </main>
     </section>
+    <section class="w-full bg-greasby py-10">
+      <div class="max-w-screen-lg mx-auto text-white">
+        <div class="mx-6 flex items-center justify-center">
+          <g-link class="outline-none" to="/contact">
+            <button
+              type="button"
+              class="appointment fade-in px-3 py-1 rounded-md text-white font-body bg-white bg-opacity-10 shadow hover:bg-opacity-30 hover:shadow-lg transition-all duration-200 ease-in-out"
+            >Any Questions? Contact Us</button>
+          </g-link>
+        </div>
+      </div>
+    </section>
   </Layout>
 </template>
 
@@ -134,4 +151,11 @@ export default {
 </script>
 
 <style scoped>
+button:hover {
+	transform: translateY(-3px);
+}
+
+.appointment:focus {
+	@apply outline-none bg-opacity-30 shadow-lg;
+}
 </style>
