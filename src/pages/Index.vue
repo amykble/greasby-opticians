@@ -30,12 +30,6 @@ export default {
 	metaInfo: {
 		title: 'Home',
 	},
-	icon: {
-		favicon: {
-			src: '../assets/images/GO-favicon.png',
-			sizes: [16, 32, 96],
-		},
-	},
 	components: {
 		Landing,
 		News,
