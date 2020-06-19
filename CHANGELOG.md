@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.9.1] | 2020-06-19
+
+#### Added
+
+- Added a favicon
+
+#### Changed
+
+- x
+
+#### Fixed
+
+- x
+
+---
+
 ## [0.9.0] | 2020-06-18
 
 #### Added
