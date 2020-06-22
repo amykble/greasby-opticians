@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.10.0] | 2020-06-21
+
+#### Added
+
+- Built the kids page
+
+#### Changed
+
+- x
+
+#### Fixed
+
+- x
+
+---
+
 ## [0.9.1] | 2020-06-19
 
 #### Added

@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{206:function(e,t,n){"use strict";n.r(t);var c={},o=n(18),s=Object(o.a)(c,(function(){var e=this.$createElement;return(this._self._c||e)("Layout",[this._v("New Technology")])}),[],!1,null,"4ec7e198",null);t.default=s.exports}}]);
