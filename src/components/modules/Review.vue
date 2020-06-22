@@ -80,7 +80,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 @keyframes fade {
 	0% {
 		opacity: 0;

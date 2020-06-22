@@ -68,10 +68,10 @@
     <section class="fixed z-20">
       <button
         @click="isOpen = !isOpen"
-        :class="isOpen ? 'ml-66' : 'ml-2'"
+        :class="isOpen ? 'ml-68' : 'ml-4'"
         type="button"
         id="hamburger"
-        class="hamburger m-2 p-2 w-14 border-transparent bg-transparent transition-all duration-300 delay-100 ease-in-out"
+        class="hamburger mt-4 mr-2 mb-2 p-2 w-14 border-transparent bg-transparent transition-all duration-300 delay-100 ease-in-out"
       >
         <span
           class="slice slice-1 w-8 h-1 bg-blue-300 block transition-all duration-200 ease-in-out"
