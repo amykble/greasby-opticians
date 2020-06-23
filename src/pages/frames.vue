@@ -6,47 +6,81 @@
         <hr class="w-24" />
       </div>
     </section>
-    <section class="review-main-container pt-6 px-2 sm:px-6 pb-8 w-full font-body">
-      <div class="flex items-center justify-center">
-        <div class="flex items-center justify-center mt-4 w-72 sm:w-96 h-96 sm:h-72">
-          <div class="review-container bg-white w-72 sm:w-96 p-4 rounded-md shadow-md">
-            <img :src="'../assets/images/brands/' + brands[imgInt]" alt="cycled image" />
-          </div>
+    <section class="max-w-screen-lg mx-auto py-10 px-6 w-full font-body">
+      <div class="flex items-center justify-center mb-3 sm:mb-8">
+        <g-image
+          class="brand-container-1 mx-2 opacity-0 w-auto h-5 sm:h-10"
+          src="../assets/images/brands/anna-sui-carousel.png"
+        />
+        <g-image
+          class="brand-container-1 mx-2 opacity-0 w-auto h-5 sm:h-10"
+          src="../assets/images/brands/boss-carousel.png"
+        />
+        <g-image
+          class="brand-container-1 mx-2 opacity-0 w-auto h-5 sm:h-10"
+          src="../assets/images/brands/barbour-carousel.png"
+        />
+      </div>
+      <div class="flex items-center justify-center mb-3 sm:mb-8">
+        <g-image
+          class="brand-container-2 opacity-0 w-auto h-5 sm:h-10"
+          src="../assets/images/brands/armani-carousel.png"
+        />
+      </div>
+      <div class="flex flex-col sm:flex-row items-center justify-center mb-3 sm:mb-8">
+        <div class="flex items-center justify-center mb-3 sm:mb-0">
+          <g-image
+            class="brand-container-3 mx-2 opacity-0 w-auto h-5 sm:h-10"
+            src="../assets/images/brands/revlon-carousel.png"
+          />
+          <g-image
+            class="brand-container-3 mx-2 opacity-0 w-auto h-5 sm:h-10"
+            src="../assets/images/brands/radley-carousel.png"
+          />
         </div>
+        <div>
+          <g-image
+            class="brand-container-3 mx-2 opacity-0 w-auto h-5 sm:h-10"
+            src="../assets/images/brands/jaeger-carousel.png"
+          />
+        </div>
+      </div>
+      <div class="flex items-center justify-center mb-3 sm:mb-8">
+        <g-image
+          class="brand-container-4 mx-2 opacity-0 w-auto h-5 sm:h-10"
+          src="../assets/images/brands/rayban-carousel.png"
+        />
+        <g-image
+          class="brand-container-4 mx-2 opacity-0 w-auto h-5 sm:h-10"
+          src="../assets/images/brands/prada-carousel.png"
+        />
+        <g-image
+          class="brand-container-4 mx-2 opacity-0 w-auto h-5 sm:h-10"
+          src="../assets/images/brands/superdry-carousel.png"
+        />
+      </div>
+      <div class="flex items-center justify-center mb-3 sm:mb-8">
+        <g-image
+          class="brand-container-5 mx-2 opacity-0 w-auto h-5 sm:h-10"
+          src="../assets/images/brands/ferrucci-carousel.png"
+        />
+        <g-image
+          class="brand-container-5 mx-2 opacity-0 w-auto h-5 sm:h-10"
+          src="../assets/images/brands/charmant-carousel.png"
+        />
+      </div>
+      <div class="flex items-center justify-center mb-3 sm:mb-8">
+        <g-image
+          class="brand-container-6 mx-2 opacity-0 w-auto h-5 sm:h-10"
+          src="../assets/images/brands/bulgari-carousel.png"
+        />
       </div>
     </section>
   </Layout>
 </template>
 
 <script>
-export default {
-	data() {
-		return {
-			imgInt: 0,
-			brands: [
-				'anna-sui-carousel.png',
-				'armani-carousel.png',
-				'barbour-carousel.png',
-				'boss-carousel.png',
-			],
-		}
-	},
-	methods: {
-		changeBrand() {
-			if (this.imgInt === this.brands.length - 1) {
-				this.imgInt = 0
-			} else if (this.imgInt < this.brands.length) {
-				this.imgInt++
-			}
-		},
-		brandsInterval() {
-			setInterval(this.changeBrand, 5000)
-		},
-	},
-	created() {
-		this.brandsInterval()
-	},
-}
+export default {}
 </script>
 
 <style scoped>
@@ -55,39 +89,37 @@ export default {
 		opacity: 0;
 		transform: translateY(20px);
 	}
-	5% {
-		opacity: 0;
-		transform: translateY(20px);
-	}
 	20% {
 		opacity: 0.8;
 		transform: translateY(0px);
 	}
-	40% {
-		opacity: 0.8;
-		transform: translateY(0px);
-	}
-	60% {
-		opacity: 0.8;
-		transform: translateY(0px);
-	}
-	80% {
-		opacity: 0.8;
-		transform: translateY(0px);
-	}
-	95% {
-		opacity: 0;
-		transform: translateY(20px);
-	}
 	100% {
-		opacity: 0;
-		transform: translateY(20px);
+		opacity: 0.8;
+		transform: translateY(0px);
 	}
 }
 
-.review-container {
-	animation-name: fade;
-	animation-duration: 5s;
-	animation-iteration-count: infinite;
+.brand-container-1 {
+	animation: fade 3s 200ms forwards;
+}
+
+.brand-container-2 {
+	animation: fade 3s 400ms forwards;
+}
+
+.brand-container-3 {
+	animation: fade 3s 600ms forwards;
+}
+
+.brand-container-4 {
+	animation: fade 3s 800ms forwards;
+}
+
+.brand-container-5 {
+	animation: fade 3s 1s forwards;
+}
+
+.brand-container-6 {
+	animation: fade 3s 1200ms forwards;
 }
 </style>
