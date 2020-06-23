@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.12.0] | 2020-06-23
+
+#### Added
+
+- Built the contact page
+
+#### Changed
+
+- x
+
+#### Fixed
+
+- x
+
+---
+
 ## [0.11.0] | 2020-06-22
 
 #### Added

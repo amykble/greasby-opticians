@@ -73,15 +73,9 @@
         id="hamburger"
         class="hamburger mt-4 mr-2 mb-2 p-2 w-14 border-transparent bg-transparent transition-all duration-300 delay-100 ease-in-out"
       >
-        <span
-          class="slice slice-1 w-8 h-1 bg-blue-300 block transition-all duration-200 ease-in-out"
-        ></span>
-        <span
-          class="slice slice-2 w-10 h-1 mt-1 bg-blue-300 block transition-all duration-200 ease-in-out"
-        ></span>
-        <span
-          class="slice slice-3 w-6 h-1 mt-1 bg-blue-300 block transition-all duration-200 ease-in-out"
-        ></span>
+        <span class="slice slice-1 w-10 h-1 bg-blue-300 block"></span>
+        <span class="slice slice-2 w-10 h-1 mt-1 bg-blue-300 block"></span>
+        <span class="slice slice-3 w-10 h-1 mt-1 bg-blue-300 block"></span>
       </button>
     </section>
     <section
@@ -117,18 +111,6 @@ button:focus {
 button:focus .slice,
 button:hover .slice {
 	@apply bg-blue-500;
-}
-
-button:hover .slice-1 {
-	width: 2.5rem;
-}
-
-button:hover .slice-2 {
-	width: 1.5rem;
-}
-
-button:hover .slice-3 {
-	width: 2rem;
 }
 
 .appear {
