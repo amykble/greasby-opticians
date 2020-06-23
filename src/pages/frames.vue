@@ -364,22 +364,13 @@ button:hover {
 	}
 }
 
-@keyframes hide {
-	from {
-		visibility: visible;
-		opacity: 1;
-	}
-	to {
-		visibility: hidden;
-		opacity: 0;
-	}
-}
-
 .show {
-	animation: show 300ms forwards;
+	visibility: visible;
+	opacity: 1;
 }
 
 .hide {
-	animation: hide 300ms forwards;
+	visibility: hidden;
+	opacity: 0;
 }
 </style>
