@@ -19,6 +19,7 @@
         <hr class="md:mx-8" />
       </div>
     </section>
+    <Review />
   </Layout>
 </template>
 
@@ -39,8 +40,13 @@ query Documentation {
 
 
 <script>
+import Review from '../components/modules/Review'
+
 export default {
 	name: 'Updates',
+	components: {
+		Review,
+	},
 }
 </script>
 

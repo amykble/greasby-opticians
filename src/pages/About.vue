@@ -1,12 +1,10 @@
 <template>
-  <Layout class="font-body">
-    <section class="pt-10 w-full flex flex-col items-center bg-greasby">
-      <h1 class="text-4xl text-white">About Us</h1>
+  <Layout class="font-body main-container">
+    <section class="pt-10 w-full flex flex-col items-center">
+      <h1 class="text-4xl text-greasby">About Us</h1>
       <hr class="w-24" />
     </section>
-    <Find />
-    <OpenTimes />
-    <section class="py-10 main-container">
+    <section class="py-10">
       <div class="max-w-screen-lg mx-auto">
         <h2 class="mx-10 text-center pb-4 text-2xl">About the Team</h2>
         <h2 class="mx-10 text-center pb-2">Get to Know Greasby Opticians</h2>
@@ -36,6 +34,18 @@
       </div>
     </section>
     <News />
+    <section class="w-full bg-greasby py-10">
+      <div class="max-w-screen-lg mx-auto text-white">
+        <div class="mx-6 flex items-center justify-center">
+          <g-link class="outline-none" to="/contact">
+            <button
+              type="button"
+              class="appointment fade-in px-3 py-1 rounded-md text-white font-body bg-white bg-opacity-10 shadow hover:bg-opacity-30 hover:shadow-lg transition-all duration-200 ease-in-out"
+            >Any Questions? Contact Us</button>
+          </g-link>
+        </div>
+      </div>
+    </section>
   </Layout>
 </template>
 
@@ -54,8 +64,6 @@ query Documentation {
 </page-query>
 
 <script>
-import Find from '../components/modules/Find'
-import OpenTimes from '../components/modules/OpenTimes'
 import News from '../components/modules/News'
 
 export default {
@@ -63,8 +71,6 @@ export default {
 		title: 'About',
 	},
 	components: {
-		Find,
-		OpenTimes,
 		News,
 	},
 }
@@ -74,5 +80,13 @@ export default {
 .main-container {
 	background-image: url('../assets/images/triangles-bg.svg');
 	background-position: center;
+}
+
+button:hover {
+	transform: translateY(-3px);
+}
+
+.appointment:focus {
+	@apply outline-none bg-opacity-30 shadow-lg;
 }
 </style>

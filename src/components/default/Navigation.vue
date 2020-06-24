@@ -73,9 +73,9 @@
         id="hamburger"
         class="hamburger mt-4 mr-2 mb-2 p-2 w-14 border-transparent bg-transparent transition-all duration-300 delay-100 ease-in-out"
       >
-        <span class="slice slice-1 w-10 h-1 bg-blue-300 block"></span>
-        <span class="slice slice-2 w-10 h-1 mt-1 bg-blue-300 block"></span>
-        <span class="slice slice-3 w-10 h-1 mt-1 bg-blue-300 block"></span>
+        <span class="slice slice-1 w-8 h-1 bg-blue-300 block"></span>
+        <span class="slice slice-2 w-8 h-1 mt-1 bg-blue-300 block"></span>
+        <span class="slice slice-3 w-8 h-1 mt-1 bg-blue-300 block"></span>
       </button>
     </section>
     <section
