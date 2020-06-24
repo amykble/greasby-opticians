@@ -10,12 +10,20 @@
       </div>
       <div
         class="max-w-screen-xl mx-auto pb-10 px-6 xl:px-0 font-body"
-        v-for="edge in $page.updates.edges"
+        v-for="edge in $page.announcements.edges"
         :key="edge.node.id"
       >
-        <h1 class="md:mx-8 text-xl text-white">{{ edge.node.title }}</h1>
+        <h1 class="md:mx-8 text-2xl text-white">{{ edge.node.title }}</h1>
         <h2 class="md:mx-8 pb-3 text-sm opacity-70">{{ edge.node.date }}</h2>
-        <p class="mb-10 md:mx-8 text-white">{{ edge.node.content }}</p>
+        <p class="md:mx-8 text-white">{{ edge.node.description }}</p>
+        <div class="flex items-center justify-center mb-10">
+          <g-link :to="edge.node.path" class="focus:outline-none">
+            <button
+              type="button"
+              class="announcements fade-in mt-6 ml-6 px-3 py-1 rounded-md text-white font-body bg-white bg-opacity-10 shadow-md hover:bg-opacity-30 hover:shadow-lg transition-all duration-200 ease-in-out"
+            >Read More</button>
+          </g-link>
+        </div>
         <hr class="md:mx-8" />
       </div>
     </section>
@@ -26,12 +34,13 @@
 
 <page-query>
 query Documentation {
-  updates: allDocumentation(sortBy: "date") {
+  announcements: allDocumentation(sortBy: "date") {
     edges {
       node {
         title
         date
-        content   
+        description
+        path
       }
     }
   }
@@ -43,7 +52,7 @@ query Documentation {
 import Review from '../components/modules/Review'
 
 export default {
-	name: 'Updates',
+	name: 'Announcements',
 	components: {
 		Review,
 	},
@@ -52,4 +61,11 @@ export default {
 
 
 <style scoped>
+button:hover {
+	transform: translateY(-3px);
+}
+
+.announcements:focus {
+	@apply outline-none bg-opacity-30 shadow-lg;
+}
 </style>

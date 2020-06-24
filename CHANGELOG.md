@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.13.0] | 2020-06-24
+
+#### Added
+
+- x
+
+#### Changed
+
+- Building the announcments pages
+
+#### Fixed
+
+- x
+
+---
+
 ## [0.12.0] | 2020-06-23
 
 #### Added

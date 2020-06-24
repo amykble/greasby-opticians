@@ -51,12 +51,13 @@
 
 <page-query>
 query Documentation {
-  updates: allDocumentation(sortBy: "date", limit: 1) {
+  announcements: allDocumentation(sortBy: "date", limit: 1) {
     edges {
       node {
         title
         date
-        content   
+        description
+        path 
       }
     }
   }
