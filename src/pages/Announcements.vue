@@ -1,21 +1,21 @@
 <template>
   <Layout>
     <section class="bg-greasby">
-      <div class="max-w-screen-xl mx-auto px-6 py-10 xl:px-0">
+      <div class="max-w-screen-lg mx-auto py-10">
         <h1 class="font-body text-white text-3xl text-center">Announcements</h1>
         <h2
           class="font-body text-white text-xl text-center mt-1"
         >You can find all of our previous announcements here</h2>
-        <hr class="mt-4 md:mx-8" />
+        <hr class="mt-4 mx-6" />
       </div>
       <div
-        class="max-w-screen-xl mx-auto pb-10 px-6 xl:px-0 font-body"
+        class="max-w-screen-lg mx-auto pb-10 font-body"
         v-for="edge in $page.announcements.edges"
         :key="edge.node.id"
       >
-        <h1 class="md:mx-8 text-2xl text-white">{{ edge.node.title }}</h1>
-        <h2 class="md:mx-8 pb-3 text-sm opacity-70">{{ edge.node.date }}</h2>
-        <p class="md:mx-8 text-white">{{ edge.node.description }}</p>
+        <h1 class="mx-6 text-2xl text-white">{{ edge.node.title }}</h1>
+        <h2 class="mx-6 pb-3 text-sm opacity-70">{{ edge.node.date }}</h2>
+        <p class="mx-6 text-white">{{ edge.node.description }}</p>
         <div class="flex items-center justify-center mb-10">
           <g-link :to="edge.node.path" class="focus:outline-none">
             <button
@@ -24,7 +24,7 @@
             >Read More</button>
           </g-link>
         </div>
-        <hr class="md:mx-8" />
+        <hr class="mx-6" />
       </div>
     </section>
     <Review />
