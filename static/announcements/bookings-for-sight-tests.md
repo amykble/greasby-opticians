@@ -1,10 +1,7 @@
 ---
 title: Bookings for Sight Tests
 date: 24 06 2020
-description: We are delighted to announce that we are now able to take bookings
-  for sight tests and contact lens checks. We have put in place extra hygiene
-  measures and procedures throughout the practice for your safety and
-  reassurance. ✅
+description: We are delighted to announce that we are now able to take bookings for sight tests and contact lens checks. We have put in place extra hygiene measures and procedures throughout the practice for your safety and reassurance. ✅
 ---
 
 We are delighted to announce that we are now able to take bookings for sight tests and contact lens checks. We have put in place extra hygiene measures and procedures throughout the practice for your safety and reassurance. ✅

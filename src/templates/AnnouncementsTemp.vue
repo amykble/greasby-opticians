@@ -2,31 +2,46 @@
   <Layout>
     <section class="w-full bg-greasby py-10">
       <div class="max-w-screen-md mx-auto text-white">
-        <div class="remark-header mx-6 flex flex-col sm:flex-row items-center justify-between">
+        <div
+          class="remark-header mx-6 flex flex-col sm:flex-row items-end sm:items-center justify-between"
+        >
           <g-link class="outline-none" to="/announcements">
             <button
               type="button"
               class="appointment fade-in px-3 py-1 rounded-md text-white font-body bg-white bg-opacity-10 shadow hover:bg-opacity-30 hover:shadow-lg transition-all duration-200 ease-in-out"
-            >Go Back</button>
+            >View All Announcements</button>
           </g-link>
-          <g-link class="outline-none" to="/contact">
+          <g-link class="outline-none" to="/">
             <button
               type="button"
               class="appointment fade-in mt-6 sm:mt-0 px-3 py-1 rounded-md text-white font-body bg-white bg-opacity-10 shadow hover:bg-opacity-30 hover:shadow-lg transition-all duration-200 ease-in-out"
-            >Any Questions? Contact Us</button>
+            >Home</button>
           </g-link>
         </div>
       </div>
     </section>
     <section class="max-w-screen-md mx-auto">
       <div class="mx-6 mt-10 mb-4 font-body">
-        <h1 class="text-2xl text-greasby">{{$page.documentation.title}}</h1>
+        <h1 class="text-2xl text-greasby font-bold">{{$page.documentation.title}}</h1>
         <h2 class="text-sm mt-2 text-gray-500">{{$page.documentation.date}}</h2>
+        <hr class="mt-3 w-1/2" />
       </div>
     </section>
     <section class="max-w-screen-md mx-auto">
       <div class="remark mx-6 mb-10 font-body">
         <VueRemarkContent />
+      </div>
+    </section>
+    <section class="w-full bg-greasby py-10">
+      <div class="max-w-screen-md mx-auto text-white">
+        <div class="remark-header mx-6 flex flex-col sm:flex-row items-center justify-center">
+          <g-link class="outline-none" to="/contact">
+            <button
+              type="button"
+              class="appointment fade-in px-3 py-1 rounded-md text-white font-body bg-white bg-opacity-10 shadow hover:bg-opacity-30 hover:shadow-lg transition-all duration-200 ease-in-out"
+            >Any Questions? Contact Us</button>
+          </g-link>
+        </div>
       </div>
     </section>
   </Layout>
@@ -63,11 +78,9 @@ export default {
 
 .remark h1,
 .remark h2,
-.remark h3,
-.remark h4,
-.remark h5,
-.remark h6 {
+.remark h3 {
 	margin: 1.5rem 0 0.75rem 0;
+	font-weight: bold;
 }
 
 .remark h1 {

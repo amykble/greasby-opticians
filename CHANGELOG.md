@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.13.2] | 2020-06-25
+
+#### Added
+
+- x
+
+#### Changed
+
+- Adding announcement details
+
+#### Fixed
+
+- x
+
+---
+
 ## [0.13.1] | 2020-06-24
 
 #### Added

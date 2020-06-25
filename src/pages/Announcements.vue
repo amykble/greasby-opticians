@@ -20,7 +20,7 @@
           <g-link :to="edge.node.path" class="focus:outline-none">
             <button
               type="button"
-              class="announcements fade-in mt-6 ml-6 px-3 py-1 rounded-md text-white font-body bg-white bg-opacity-10 shadow-md hover:bg-opacity-30 hover:shadow-lg transition-all duration-200 ease-in-out"
+              class="announcements fade-in mt-6 px-3 py-1 rounded-md text-white font-body bg-white bg-opacity-10 shadow-md hover:bg-opacity-30 hover:shadow-lg transition-all duration-200 ease-in-out"
             >Read More</button>
           </g-link>
         </div>
