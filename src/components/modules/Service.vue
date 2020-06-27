@@ -4,22 +4,28 @@
       class="text-2xl mt-8 text-center mx-6"
     >We Offer a Range of Services, Including&#46;&#46;&#46;</h1>
     <main class="my-8 flex flex-col sm:flex-row items-center justify-evenly">
-      <div
-        class="w-48 h-48 mb-6 sm:mb-0 rounded-full bg-gray-200 flex flex-col justify-center items-center"
-      >
-        <g-image class src="../../assets/images/glasses.png" alt="Glasses Icon" />
-        <p>Spectacles</p>
-      </div>
-      <div
-        class="w-48 h-48 mb-6 sm:mb-0 rounded-full bg-gray-200 flex flex-col justify-center items-center"
-      >
-        <g-image class src="../../assets/images/list.png" alt="Examinations Icon" />
-        <p>Examinations</p>
-      </div>
-      <div class="w-48 h-48 rounded-full bg-gray-200 flex flex-col justify-center items-center">
-        <g-image class src="../../assets/images/eye.png" alt="Contact Lenses Icon" />
-        <p>Contact Lenses</p>
-      </div>
+      <g-link to="/frames">
+        <div
+          class="w-48 h-48 mb-6 sm:mb-0 rounded-full bg-gray-200 flex flex-col justify-center items-center"
+        >
+          <g-image class src="../../assets/images/glasses.png" alt="Glasses Icon" />
+          <p>Spectacles</p>
+        </div>
+      </g-link>
+      <g-link to="/services">
+        <div
+          class="w-48 h-48 mb-6 sm:mb-0 rounded-full bg-gray-200 flex flex-col justify-center items-center"
+        >
+          <g-image class src="../../assets/images/list.png" alt="Examinations Icon" />
+          <p>Examinations</p>
+        </div>
+      </g-link>
+      <g-link to="/contact-lenses">
+        <div class="w-48 h-48 rounded-full bg-gray-200 flex flex-col justify-center items-center">
+          <g-image class src="../../assets/images/eye.png" alt="Contact Lenses Icon" />
+          <p>Contact Lenses</p>
+        </div>
+      </g-link>
     </main>
     <div class="mx-6">
       <hr class="mt-12 mb-2" />
