@@ -20,9 +20,6 @@ See the [changelog](CHANGELOG.md) to see all updates to this project.
 - **[Vue](https://vuejs.org)**
   is a JavaScript framework that is easy to use and build websites out of components and intergrate functionality into a site with ease.
 
-- **[Mailgo](https://mailgo.js.org/)**
-  a minimalist way to open email or phone links with mailgo, giving website users different options on how they would like to use the link they have just clicked. For example, when you click an email link, you can open it with Gmail, Outlook, your default email client or copy the link.
-
 ## File Structure
 
 ```
