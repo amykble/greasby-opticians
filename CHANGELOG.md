@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.13.3] | 2020-06-27
+
+#### Added
+
+- Added mail and tel links
+
+#### Changed
+
+- x
+
+#### Fixed
+
+- x
+
+---
+
 ## [0.13.2] | 2020-06-25
 
 #### Added

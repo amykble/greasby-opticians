@@ -49,9 +49,7 @@
         <div class="flex flex-col">
           <a
             class="my-1 flex items-center hover:text-gray-500 focus:outline-none focus:text-gray-500 transition duration-300 ease-in-out"
-            href="#"
-            target="_blank"
-            rel="noopener"
+            href="tel:0151 605 0822"
           >
             <img
               class="inline h-4 mr-2"
@@ -61,9 +59,7 @@
           </a>
           <a
             class="my-1 flex items-center hover:text-gray-500 focus:outline-none focus:text-gray-500 transition duration-300 ease-in-out"
-            href="#"
-            target="_blank"
-            rel="noopener"
+            href="mailto:info@greasbyopticians.co.uk"
           >
             <img
               class="inline h-4 mr-2"

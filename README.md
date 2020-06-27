@@ -64,7 +64,7 @@ See the [changelog](CHANGELOG.md) to see all updates to this project.
   |- index.html
   |- 404.html
   |- css/ style pages...
-  The dist folder is built when 'gridsome build is ran
+  The dist folder is built when 'gridsome build' is ran
 ```
 
 ## Using Gridsome
