@@ -20,21 +20,24 @@ See the [changelog](CHANGELOG.md) to see all updates to this project.
 - **[Vue](https://vuejs.org)**
   is a JavaScript framework that is easy to use and build websites out of components and intergrate functionality into a site with ease.
 
+- **[Mailgo](https://mailgo.js.org/)**
+  a minimalist way to open email or phone links with mailgo, giving website users different options on how they would like to use the link they have just clicked. For example, when you click an email link, you can open it with Gmail, Outlook, your default email client or copy the link.
+
 ## File Structure
 
 ```
 .
+|- package.json
 |- gridsome.config.js
 |- gridsome.server.js
-|- package.json
+|- prettier.config.js
 |- tailwind.config.js
 |- CHANGELOG.md
 |- static/
   |- admin/
     |- config.yml
     |- index.html
-  |- updates/
-    |- index.md
+  |- announcements/
     |- first-update.md, etc..
 |- src/
   |- main.js
@@ -46,8 +49,12 @@ See the [changelog](CHANGELOG.md) to see all updates to this project.
     |- Default.vue
     |- any other layouts..
   |- components/
-    |- Navigation.vue
-    |- Footer.vue, etc..
+    |- default/
+      |- Navigation.vue
+      |- Footer.vue, etc..
+    |- modules/
+      |- News.vue
+      |- OpenTimes.vue, etc..
   |- assets/
     |- images/
       |- logos, images, etc..
@@ -56,16 +63,8 @@ See the [changelog](CHANGELOG.md) to see all updates to this project.
 |- dist/
   |- index.html
   |- 404.html
-  |- about/ and other pages..
-    |- index.html (about page index)
-  |- css/ style pages..
-  |- updates/
-    |- index.md
-    |- first-update.md, etc..
-  |- assets/
-    |- static/ images etc..
-  |- js/ scripts..
-  |- data/ data for each page..
+  |- css/ style pages...
+  The dist folder is built when 'gridsome build is ran
 ```
 
 ## Using Gridsome
