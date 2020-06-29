@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.13.6] | 2020-06-29
+
+#### Added
+
+- Added visual stress clinic link
+
+#### Changed
+
+- x
+
+#### Fixed
+
+- x
+
+---
+
 ## [0.13.5] | 2020-06-29
 
 #### Added

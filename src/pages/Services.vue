@@ -1,5 +1,6 @@
 <template>
   <Layout class="font-body">
+    <VisualStress />
     <section class="pt-10 w-full flex flex-col items-center bg-white">
       <h1 class="text-4xl text-greasby">Our Services</h1>
       <hr class="w-24" />
@@ -117,7 +118,7 @@
           <div class="md:w-1/2 bg-gray-200 md:border-r border-solid border-gray-400 rounded-bl-md">
             <h1
               class="p-4 pb-1 text-lg font-bold"
-            >Dyslexia - Visual Stress (Meales-Irlen) - Migraines</h1>
+            >Dyslexia - Visual Stress (Mearles-Irlen) - Migraines</h1>
           </div>
           <div class="md:w-1/2 bg-gray-200 rounded-br-md">
             <p
@@ -132,6 +133,7 @@
 </template>
 
 <script>
+import VisualStress from '../components/modules/VisualStress'
 import AnyQs from '../components/modules/AnyQs'
 
 export default {
@@ -140,6 +142,7 @@ export default {
 	},
 	name: 'Services',
 	components: {
+		VisualStress,
 		AnyQs,
 	},
 }

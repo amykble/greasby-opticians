@@ -15,11 +15,11 @@
             class="w-24 rounded-max"
           />
           <p class="mt-4 sm:mt-0 sm:ml-4 text-greasby">
-            Greasby Opticians, previously LM Daly Opticians is an independent opticians which continues to offer excellent quality eyecare and an extensive range of spectacle frames and contact lenses. Mrs. Lynn Daly served the community of Greasby, testing eyes for 27 years. Dr. Helena Workman took over the reins of the business in April 2016 and is supported by Rachel Webbon. Many of our patients have been attending from their childhood and now bring their own children.
+            Greasby Opticians, previously LM Daly Opticians is an independent opticians which continues to offer excellent quality eyecare and an extensive range of spectacle frames and contact lenses. Mrs. Lynn Daly served the community of Greasby, testing eyes for 27 years. Dr. Helena Workman took over the reins of the business in April 2016 and is supported by Rachel Webbon and Hannah Thompson. Many of our patients have been attending from their childhood and now bring their own children.
             We pride ourselves in providing a warm and comfortable environment where patients can feel at ease. We are confident that patients will be delighted at the personal service that we provide at Greasby Opticians.
           </p>
         </div>
-        <h2 class="mx-10 text-center mt-6 mb-2">Helena Workman, Ophthalmologist at Greasby Opticians</h2>
+        <h2 class="mx-10 text-center mt-6 mb-2">Helena Workman, Optometrist at Greasby Opticians</h2>
         <div class="mx-6 p-4 bg-white bg-opacity-75 shadow-md rounded-md sm:flex sm:items-center">
           <g-image
             src="../assets/images/helena-square.jpg"

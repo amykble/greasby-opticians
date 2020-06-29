@@ -260,6 +260,9 @@
       <div class="max-w-screen-lg mx-auto">
         <h2 class="text-2xl text-center mx-6 mb-4">Choosing Your Glasses</h2>
         <p
+          class="mx-6 mb-4"
+        >Selection of the right frame is a very personal thing. You will find at Greasby Opticians we take time to help you with your frame selection without you feeling rushed. We have worked hard to build relationships so that we can stock the frame types, styles and designer names that you want to wear...we have a variety of choice and something for everyone.</p>
+        <p
           class="mx-6"
         >All our staff are trained in assessing frame style and suitability. As an independent opticians we are able to order spectacle lenses from a variety of lens manufacturers enabling customers to get the best lens for their visual needs and frame selection.</p>
       </div>

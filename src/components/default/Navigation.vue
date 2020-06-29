@@ -2,7 +2,7 @@
   <header class="font-body">
     <section
       :class="isOpen ? 'appear' : 'disappear'"
-      class="nav-container fixed z-20 h-full w-64 bg-white shadow-md transition duration-300 delay-100 ease-in-out"
+      class="nav-container fixed z-30 h-full w-64 bg-white shadow-md transition duration-300 delay-100 ease-in-out"
     >
       <nav
         :class="isOpen ? 'opacity' : 'none'"
@@ -65,7 +65,7 @@
         </div>
       </nav>
     </section>
-    <section class="fixed z-20">
+    <section class="fixed z-30">
       <button
         @click="isOpen = !isOpen"
         :class="isOpen ? 'ml-68' : 'ml-4'"
@@ -81,7 +81,7 @@
     <section
       @click="isOpen = !isOpen"
       :class="isOpen ? 'show' : 'hide'"
-      class="fixed z-10 w-full h-screen bg-black opacity-70 transition-all duration-200 delay-100 ease-in-out"
+      class="fixed z-20 w-full h-screen bg-black opacity-70 transition-all duration-200 delay-100 ease-in-out"
     ></section>
   </header>
 </template>
@@ -110,7 +110,7 @@ button:focus {
 
 button:focus .slice,
 button:hover .slice {
-	@apply bg-blue-500;
+	@apply bg-blue-500 transition duration-200 ease-in-out;
 }
 
 .appear {

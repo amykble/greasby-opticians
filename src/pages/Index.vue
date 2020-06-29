@@ -1,5 +1,6 @@
 <template>
   <Layout>
+    <VisualStress />
     <Landing />
     <News />
     <Service />
@@ -23,6 +24,7 @@ query Documentation {
 </page-query>
 
 <script>
+import VisualStress from '../components/modules/VisualStress'
 import Landing from '../components/modules/Landing'
 import News from '../components/modules/News'
 import Service from '../components/modules/Service'
@@ -33,6 +35,7 @@ export default {
 	},
 	name: 'Home',
 	components: {
+		VisualStress,
 		Landing,
 		News,
 		Service,
