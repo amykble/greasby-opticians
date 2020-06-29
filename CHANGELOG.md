@@ -6,6 +6,22 @@ All notable changes to this project will be documented in this file.
 
 #### Added
 
+- Added meta tags
+
+#### Changed
+
+- x
+
+#### Fixed
+
+- x
+
+---
+
+## [0.13.4] | 2020-06-28
+
+#### Added
+
 - x
 
 #### Changed
@@ -17,6 +33,7 @@ All notable changes to this project will be documented in this file.
 - x
 
 ---
+
 ## [0.13.4] | 2020-06-27
 
 #### Added

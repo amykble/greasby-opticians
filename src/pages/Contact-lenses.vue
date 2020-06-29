@@ -9,7 +9,12 @@
 </template>
 
 <script>
-export default {}
+export default {
+	metaInfo: {
+		title: 'Contact Lenses',
+	},
+	name: 'ContactLenses',
+}
 </script>
 
 <style scoped>

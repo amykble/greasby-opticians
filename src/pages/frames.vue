@@ -272,6 +272,10 @@
 import AnyQs from '../components/modules/AnyQs'
 
 export default {
+	metaInfo: {
+		title: 'Frames',
+	},
+	name: 'Frames',
 	components: {
 		AnyQs,
 	},

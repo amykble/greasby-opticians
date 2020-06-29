@@ -59,6 +59,10 @@ import Find from '../components/modules/Find'
 import OpenTimes from '../components/modules/OpenTimes'
 
 export default {
+	metaInfo: {
+		title: 'Contact Us',
+	},
+	name: 'Contact',
 	components: {
 		Find,
 		OpenTimes,

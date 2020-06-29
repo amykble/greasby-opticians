@@ -91,6 +91,10 @@
 import AnyQs from '../components/modules/AnyQs'
 
 export default {
+	metaInfo: {
+		title: 'Kids',
+	},
+	name: 'Kids',
 	components: {
 		AnyQs,
 	},

@@ -136,8 +136,9 @@ import AnyQs from '../components/modules/AnyQs'
 
 export default {
 	metaInfo: {
-		title: 'Services',
+		title: 'Our Services',
 	},
+	name: 'Services',
 	components: {
 		AnyQs,
 	},

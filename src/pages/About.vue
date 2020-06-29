@@ -59,8 +59,9 @@ import AnyQs from '../components/modules/AnyQs'
 
 export default {
 	metaInfo: {
-		title: 'About',
+		title: 'About Us',
 	},
+	name: 'About',
 	components: {
 		News,
 		AnyQs,

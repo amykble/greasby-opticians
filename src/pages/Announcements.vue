@@ -52,6 +52,9 @@ query Documentation {
 import Review from '../components/modules/Review'
 
 export default {
+	metaInfo: {
+		title: 'Announcements',
+	},
 	name: 'Announcements',
 	components: {
 		Review,

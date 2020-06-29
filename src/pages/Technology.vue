@@ -9,7 +9,12 @@
 </template>
 
 <script>
-export default {}
+export default {
+	metaInfo: {
+		title: 'New Technology',
+	},
+	name: 'Technology',
+}
 </script>
 
 <style scoped>

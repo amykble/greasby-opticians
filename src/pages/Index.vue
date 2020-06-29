@@ -31,6 +31,7 @@ export default {
 	metaInfo: {
 		title: 'Home',
 	},
+	name: 'Home',
 	components: {
 		Landing,
 		News,

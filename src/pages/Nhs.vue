@@ -58,6 +58,10 @@
 import AnyQs from '../components/modules/AnyQs'
 
 export default {
+	metaInfo: {
+		title: 'NHS',
+	},
+	name: 'Nhs',
 	components: {
 		AnyQs,
 	},
