@@ -4,7 +4,7 @@
       <h1 class="text-4xl text-white">NHS</h1>
       <hr class="w-24" />
     </section>
-    <section class="py-10 main-container bg-greasby">
+    <section class="pt-10 main-container bg-greasby">
       <div class="max-w-screen-lg mx-auto">
         <h2
           class="mx-10 text-center pb-4 text-2xl text-white"
@@ -50,31 +50,19 @@
         </div>
       </div>
     </section>
-    <section class="w-full bg-greasby pb-10">
-      <div class="max-w-screen-lg mx-auto text-white">
-        <div class="mx-6 flex items-center justify-center">
-          <g-link class="outline-none" to="/contact">
-            <button
-              type="button"
-              class="appointment fade-in px-3 py-1 rounded-md text-white font-body bg-white bg-opacity-10 shadow hover:bg-opacity-30 hover:shadow-lg transition-all duration-200 ease-in-out"
-            >Any Questions? Contact Us</button>
-          </g-link>
-        </div>
-      </div>
-    </section>
+    <AnyQs />
   </Layout>
 </template>
 
 <script>
-export default {}
+import AnyQs from '../components/modules/AnyQs'
+
+export default {
+	components: {
+		AnyQs,
+	},
+}
 </script>
 
 <style scoped>
-button:hover {
-	transform: translateY(-3px);
-}
-
-.appointment:focus {
-	@apply outline-none bg-opacity-30 shadow-lg;
-}
 </style>

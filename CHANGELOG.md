@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.13.4] | 2020-06-28
+
+#### Added
+
+- x
+
+#### Changed
+
+- Created a Any Questions component
+
+#### Fixed
+
+- x
+
+---
 ## [0.13.4] | 2020-06-27
 
 #### Added

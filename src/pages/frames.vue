@@ -256,7 +256,7 @@
         <p class="brand-container-7 opacity-0 mx-6">and more brands and styles to choose from...</p>
       </div>
     </section>
-    <section class="bg-greasby text-white py-10">
+    <section class="bg-greasby text-white pt-10">
       <div class="max-w-screen-lg mx-auto">
         <h2 class="text-2xl text-center mx-6 mb-4">Choosing Your Glasses</h2>
         <p
@@ -264,23 +264,17 @@
         >All our staff are trained in assessing frame style and suitability. As an independent opticians we are able to order spectacle lenses from a variety of lens manufacturers enabling customers to get the best lens for their visual needs and frame selection.</p>
       </div>
     </section>
-    <section class="w-full bg-greasby pb-10">
-      <div class="max-w-screen-lg mx-auto text-white">
-        <div class="mx-6 flex items-center justify-center">
-          <g-link class="outline-none" to="/contact">
-            <button
-              type="button"
-              class="appointment fade-in px-3 py-1 rounded-md text-white font-body bg-white bg-opacity-10 shadow hover:bg-opacity-30 hover:shadow-lg transition-all duration-200 ease-in-out"
-            >Any Questions? Contact Us</button>
-          </g-link>
-        </div>
-      </div>
-    </section>
+    <AnyQs />
   </Layout>
 </template>
 
 <script>
+import AnyQs from '../components/modules/AnyQs'
+
 export default {
+	components: {
+		AnyQs,
+	},
 	data() {
 		return {
 			messageOne: false,
@@ -343,14 +337,6 @@ export default {
 
 .brand-container-7 {
 	animation: fade 3s 1400ms forwards;
-}
-
-button:hover {
-	transform: translateY(-3px);
-}
-
-.appointment:focus {
-	@apply outline-none bg-opacity-30 shadow-lg;
 }
 
 @keyframes show {
