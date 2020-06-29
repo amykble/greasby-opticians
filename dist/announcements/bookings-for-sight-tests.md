@@ -12,3 +12,5 @@ Contact us on 0151 605 0082 or info@greasbyopticians.co.uk for advice or to book
 Again, our grateful thanks to you for your support through this difficult time. 😃
 
 [Click here to watch an informational video about COVID-19 safety](https://www.youtube.com/watch?v=gGkQutVzImo&feature=youtu.be&fbclid=IwAR2uPQlSEa0tIixfdm4slK_fNmGJxURDA4TpiHnD93y0Afu0cdBvAVSNnuM)
+
+![Shop Face](./shop.jpg)

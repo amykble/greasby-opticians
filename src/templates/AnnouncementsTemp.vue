@@ -112,4 +112,17 @@ export default {
 	font-size: 1.125rem;
 	margin-bottom: 1rem;
 }
+
+.remark img {
+	width: full;
+	display: block;
+	margin: 1.5rem auto 0;
+	border-radius: 0.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+	.remark img {
+		width: 40%;
+	}
+}
 </style>
