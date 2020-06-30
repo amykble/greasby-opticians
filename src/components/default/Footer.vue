@@ -42,6 +42,19 @@
             >Contact Lenses</g-link>
           </section>
         </div>
+        <hr class="mt-3 mb-5 opacity-50" />
+        <g-link
+          to="/visual-stress-clinic"
+          class="text-blue-300 hover:text-blue-500 focus:outline-none focus:text-blue-500 transition duration-300 ease-in-out"
+        >
+          Visual Stress Clinic
+          <button
+            type="button"
+            tabindex="-1"
+            class="appointment ml-2 p-1 rounded text-sm text-white font-body bg-blue-500 shadow hover:bg-blue-300 focus:outline-none focus:bg-blue-300 transition duration-200 ease-in-out"
+          >Greasby Exclusive</button>
+        </g-link>
+        <hr class="my-5 opacity-50" />
       </nav>
       <nav class="pt-6 pb-0 sm:pb-8 px-6 sm:px-4 lg:px-0 text-white font-body">
         <h1 class="text-xl text-greasby-light">Contact Us</h1>
@@ -86,13 +99,31 @@
       <h1 class="text-greasby-light">Copyright &copy; {{ date }} Greasby Opticians</h1>
       <div class="ml-0 mt-1 sm:ml-2 sm:mt-0 flex items-center">
         <p>Created with</p>
-        <a class="focus:outline-none" href="https://gridsome.org" target="_blank" rel="noopener">
+        <a
+          class="focus:outline-none"
+          tabindex="-1"
+          href="https://gridsome.org"
+          target="_blank"
+          rel="noopener"
+        >
           <img class="h-3 ml-2" src="../../assets/images/amykble/gridsome.svg" alt="gridsome" />
         </a>
-        <a class="focus:outline-none" href="https://vuejs.org" target="_blank" rel="noopener">
+        <a
+          class="focus:outline-none"
+          tabindex="-1"
+          href="https://vuejs.org"
+          target="_blank"
+          rel="noopener"
+        >
           <img class="h-3 ml-2" src="../../assets/images/amykble/vue.svg.png" alt="vue" />
         </a>
-        <a class="focus:outline-none" href="https://tailwindcss.com" target="_blank" rel="noopener">
+        <a
+          class="focus:outline-none"
+          tabindex="-1"
+          href="https://tailwindcss.com"
+          target="_blank"
+          rel="noopener"
+        >
           <img class="h-3 ml-2" src="../../assets/images/amykble/tailwind.png" alt="tailwind" />
         </a>
         <p class="ml-2">

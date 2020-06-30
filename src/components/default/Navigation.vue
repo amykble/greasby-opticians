@@ -51,6 +51,11 @@
           class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out"
         >Contact Lenses</g-link>
         <hr class="w-56 ml-4" />
+        <g-link
+          to="/visual-stress-clinic"
+          class="block my-2 mx-4 font-bold text-greasby hover:text-blue-300 focus:text-blue-300 transition duration-200 ease-in-out"
+        >Visual Stress Clinic</g-link>
+        <hr class="w-56 ml-4" />
         <div class="absolute bottom-0">
           <hr class="w-56 ml-4" />
           <g-link

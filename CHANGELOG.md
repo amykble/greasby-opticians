@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.13.7] | 2020-06-30
+
+#### Added
+
+- Added visual stress clinic link to footer and nav
+
+#### Changed
+
+- x
+
+#### Fixed
+
+- x
+
+---
+
 ## [0.13.6] | 2020-06-29
 
 #### Added

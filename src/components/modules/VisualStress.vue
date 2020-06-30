@@ -1,8 +1,10 @@
 <template>
   <div>
-    <section class="absolute sm:fixed z-10 w-full font-body">
-      <g-link to="/visual-stress-clinic">
-        <div class="py-3 bg-black text-sm sm:text-lg text-white text-right sm:text-center">
+    <section class="absolute sm:fixed z-10 w-full bg-gray-900 font-body">
+      <div
+        class="sm:w-144 mx-auto py-3 bg-gray-900 shadow-md text-sm sm:text-lg text-white text-right sm:text-center"
+      >
+        <g-link to="/visual-stress-clinic">
           <p class="mx-6">Suffering from headaches or sore eyes?</p>
           <p class="mx-6">
             Greasby Opticians offers exclusive
@@ -15,10 +17,10 @@
               class="text-blue-300 hover:text-blue-500 transition duration-200 ease-in-out"
             >Click here</span> to find out more
           </p>
-        </div>
-      </g-link>
+        </g-link>
+      </div>
     </section>
-    <section class="h-16 sm:h-24"></section>
+    <section class="h-24"></section>
   </div>
 </template>
 
