@@ -5,6 +5,7 @@
     <Facts />
     <News />
     <Service />
+    <Products />
     <Review />
     <section class="bg-gray-900">
       <div class="max-w-screen-lg mx-auto">
@@ -37,6 +38,7 @@ import Landing from '../components/modules/Landing'
 import Facts from '../components/modules/Facts'
 import News from '../components/modules/News'
 import Service from '../components/modules/Service'
+import Products from '../components/modules/Products'
 import Review from '../components/modules/Review'
 export default {
 	metaInfo: {
@@ -49,6 +51,7 @@ export default {
 		Facts,
 		News,
 		Service,
+		Products,
 		Review,
 	},
 }

@@ -49,14 +49,23 @@
       </g-link>
     </div>
     <p
-      class="mt-8 mx-6"
+      class="mt-10 mx-6"
     >Greasby Opticians is an independent opticians which offers excellent quality eyecare and an extensive range of spectacle frames and contact lenses. We have served the community of Greasby for over 30 years. Many of our patients have been attending from their childhood and now bring their own children.</p>
     <p
       class="mt-4 mx-6"
     >We pride ourselves in providing a warm and comfortable environment where patients can feel at ease. We are confident that patients will be delighted at the personal service that we provide at Greasby Opticians.</p>
     <p
-      class="mt-4 mb-10 mx-6"
+      class="mt-4 mb-10 mx-6 font-bold"
     >To find out more, visit our 'About Us' page or see 'Our Services', which are both linked above.</p>
+    <p
+      class="mt-4 mx-6"
+    >Our services support all patients in our community, offering eye tests to children from pre-school age and beyond, dispensing spectacles to those attending local paediatric eye clinics for their eye examinations, VDU examinations to our patients working in an office environment, contact lens wearers and specialised clinics such as red eye, flashes and floaters, diabetic screening, glaucoma assessment, cataract assessment and low visual aid services.</p>
+    <p
+      class="mt-4 mx-6"
+    >Our optometrists take a keen interest in all the local optical policies and protocols, and are members of the Local Optometric Committee.</p>
+    <p
+      class="mt-4 mb-10 mx-6"
+    >The practice stocks a comprehensive range of spectacle frames from designer to budget and all staff are trained on frame suitability.</p>
   </section>
 </template>
 

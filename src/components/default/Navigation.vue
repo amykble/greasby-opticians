@@ -137,9 +137,8 @@ button:hover .slice {
 }
 
 .show {
-	opacity: 0.8;
+	opacity: 0.9;
 	visibility: visible;
-	backdrop-filter: grayscale(1) blur(5px);
 }
 
 .hide {
