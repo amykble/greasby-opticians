@@ -2,6 +2,38 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.14.0] | 2020-07-1
+
+#### Added
+
+- Added VSC and pdf
+
+#### Changed
+
+- x
+
+#### Fixed
+
+- x
+
+---
+
+## [0.13.9] | 2020-07-1
+
+#### Added
+
+- Added home page texts
+
+#### Changed
+
+- x
+
+#### Fixed
+
+- x
+
+---
+
 ## [0.13.8] | 2020-06-30
 
 #### Added
