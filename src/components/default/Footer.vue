@@ -51,7 +51,7 @@
           <button
             type="button"
             tabindex="-1"
-            class="appointment ml-2 p-1 rounded text-sm text-white font-body bg-blue-500 shadow hover:bg-blue-300 focus:outline-none focus:bg-blue-300 transition duration-200 ease-in-out"
+            class="ml-2 p-1 rounded text-sm text-white font-body bg-blue-500 shadow hover:bg-blue-300 focus:outline-none focus:bg-blue-300 transition duration-200 ease-in-out"
           >Greasby Exclusive</button>
         </g-link>
         <hr class="my-5 opacity-50" />

@@ -86,7 +86,7 @@
     <section
       @click="isOpen = !isOpen"
       :class="isOpen ? 'show' : 'hide'"
-      class="fixed z-20 w-full h-screen bg-black opacity-70 transition-all duration-200 delay-100 ease-in-out"
+      class="fixed z-20 w-full h-screen bg-black transition-all duration-200 delay-100 ease-in-out"
     ></section>
   </header>
 </template>
@@ -139,6 +139,7 @@ button:hover .slice {
 .show {
 	opacity: 0.8;
 	visibility: visible;
+	backdrop-filter: grayscale(1) blur(5px);
 }
 
 .hide {

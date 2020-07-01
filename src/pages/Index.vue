@@ -1,10 +1,18 @@
 <template>
-  <Layout>
+  <Layout class="font-body">
     <VisualStress />
     <Landing />
+    <Facts />
     <News />
     <Service />
     <Review />
+    <section class="bg-gray-900">
+      <div class="max-w-screen-lg mx-auto">
+        <p
+          class="mx-6 text-white opacity-50 pt-2"
+        >*Research was undertaken by Censuswide on behalf of the College of Optometrists. 2,024 people were surveyed.</p>
+      </div>
+    </section>
   </Layout>
 </template>
 
@@ -26,6 +34,7 @@ query Documentation {
 <script>
 import VisualStress from '../components/modules/VisualStress'
 import Landing from '../components/modules/Landing'
+import Facts from '../components/modules/Facts'
 import News from '../components/modules/News'
 import Service from '../components/modules/Service'
 import Review from '../components/modules/Review'
@@ -37,6 +46,7 @@ export default {
 	components: {
 		VisualStress,
 		Landing,
+		Facts,
 		News,
 		Service,
 		Review,
