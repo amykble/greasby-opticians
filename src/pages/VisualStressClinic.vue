@@ -128,8 +128,7 @@
             To book a private consultation or for more information please telephone the practice on the number above. You will also find it beneficial to read the following document on our
             <a
               class="text-greasby font-bold hover:text-blue-300 focus:text-blue-300 transition duration-200 ease-in-out"
-              href="../assets/documents/visual-stress-clinic-procedure-issue.pdf"
-              rel="noopener"
+              href="../../static/documents/visual-stress-clinic-procedure-issue.pdf"
               target="_blank"
             >Visual Stress Assessment Procedure</a>
           </p>
