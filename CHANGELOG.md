@@ -2,7 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
-## [0.15.0] | 2020-07-1
+## [0.16.0] | 2020-07-01
+
+#### Added
+
+- Added the Contact Lenses page
+
+#### Changed
+
+- x
+
+#### Fixed
+
+- x
+
+---
+
+## [0.15.0] | 2020-07-01
 
 #### Added
 
@@ -18,7 +34,7 @@ All notable changes to this project will be documented in this file.
 
 ---
 
-## [0.14.0] | 2020-07-1
+## [0.14.0] | 2020-07-01
 
 #### Added
 
@@ -34,7 +50,7 @@ All notable changes to this project will be documented in this file.
 
 ---
 
-## [0.13.9] | 2020-07-1
+## [0.13.9] | 2020-07-01
 
 #### Added
 
