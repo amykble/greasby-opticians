@@ -31,7 +31,10 @@
         <g-link
           to="/technology"
           class="block my-2 mx-4 hover:text-gray-500 focus:text-gray-500 transition duration-200 ease-in-out"
-        >New Technology</g-link>
+        >
+          Technology
+          <span class="text-white text-sm bg-red-600 ml-1 p-1 rounded">new!</span>
+        </g-link>
         <hr class="w-56 ml-4" />
         <hr class="w-56 ml-4 mt-12" />
         <g-link

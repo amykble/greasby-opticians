@@ -21,7 +21,10 @@
             <g-link
               to="/technology"
               class="my-1 hover:text-gray-500 focus:outline-none focus:text-gray-500 transition duration-300 ease-in-out"
-            >New Technology</g-link>
+            >
+              Technology
+              <span class="text-white text-sm bg-red-600 ml-1 p-1 rounded">new!</span>
+            </g-link>
           </section>
           <section class="flex flex-col ml-6">
             <g-link
