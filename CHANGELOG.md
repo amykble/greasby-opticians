@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.15.0] | 2020-07-1
+
+#### Added
+
+- Added the FAQ page
+
+#### Changed
+
+- x
+
+#### Fixed
+
+- x
+
+---
+
 ## [0.14.0] | 2020-07-1
 
 #### Added
