@@ -2,10 +2,9 @@
   <div>
     <section class="absolute sm:fixed z-10 w-full bg-gray-900 font-body">
       <div
-        class="sm:w-144 mx-auto py-3 bg-gray-900 shadow-md text-sm sm:text-lg text-white text-right sm:text-center"
+        class="sm:w-144 mx-auto py-4 bg-gray-900 shadow-md text-sm sm:text-lg text-white text-right sm:text-center"
       >
         <g-link to="/visual-stress-clinic">
-          <p class="mx-6">Suffering from headaches or sore eyes?</p>
           <p class="mx-6">
             Greasby Opticians offers exclusive
             <span
@@ -20,7 +19,7 @@
         </g-link>
       </div>
     </section>
-    <section class="h-24"></section>
+    <section class="h-20"></section>
   </div>
 </template>
 
