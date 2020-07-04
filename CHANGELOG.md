@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.0] | 2020-07-04
+
+#### Added
+
+- Added New Technology page
+
+#### Changed
+
+- x
+
+#### Fixed
+
+- x
+
+---
+
 ## [0.16.1] | 2020-07-02
 
 #### Added
