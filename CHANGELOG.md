@@ -2,7 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
-## [0.1.0] | 2020-07-04
+## [1.0.1] | 2020-07-07
+
+#### Added
+
+- Added About page info
+
+#### Changed
+
+- x
+
+#### Fixed
+
+- x
+
+---
+
+## [1.0.0] | 2020-07-04
 
 #### Added
 
