@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.2] | 2020-07-15
+
+#### Added
+
+- Added About page photos
+
+#### Changed
+
+- x
+
+#### Fixed
+
+- Typo
+
+---
+
 ## [1.0.1] | 2020-07-07
 
 #### Added

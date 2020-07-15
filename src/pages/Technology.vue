@@ -24,7 +24,7 @@
             <main class="text-black">
               <div class="flex shadow-md rounded-t-md">
                 <div class="w-full bg-gray-100 rounded-t-md">
-                  <p class="p-4">Age related macular degeneration/p></p>
+                  <p class="p-4">Age related macular degeneration</p>
                 </div>
               </div>
               <div class="flex shadow-md">

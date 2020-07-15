@@ -32,8 +32,13 @@
           </p>
         </div>
         <h2 class="mx-10 text-center mt-6 mb-2">Sharon Bland</h2>
-        <div class="mx-6 p-4 bg-white bg-opacity-75 shadow-md rounded-md">
-          <p class="text-greasby">
+        <div class="mx-6 p-4 bg-white bg-opacity-75 shadow-md rounded-md sm:flex sm:items-center">
+          <g-image
+            src="../assets/images/headshots/sharon.jpg"
+            alt="Greasby Opticians"
+            class="w-24 rounded-max"
+          />
+          <p class="mt-4 sm:mt-0 sm:ml-4 text-greasby">
             I was born on the Wirral and love living here on our beautiful peninsula. I am married with two sons.
             I’ve worked in optics for 18 years and am really pleased to have recently joined Greasby Opticians. I
             love helping patients choose their new glasses, particularly enjoy working with children and enjoy
@@ -42,8 +47,13 @@
           </p>
         </div>
         <h2 class="mx-10 text-center mt-6 mb-2">Jess Clark</h2>
-        <div class="mx-6 p-4 bg-white bg-opacity-75 shadow-md rounded-md">
-          <p class="text-greasby">
+        <div class="mx-6 p-4 bg-white bg-opacity-75 shadow-md rounded-md sm:flex sm:items-center">
+          <g-image
+            src="../assets/images/headshots/jess-clark.jpg"
+            alt="Greasby Opticians"
+            class="w-24 rounded-max"
+          />
+          <p class="mt-4 sm:mt-0 sm:ml-4 text-greasby">
             I have worked in Optics since 2012 when I began my level 2 Diploma in Optical Retail Skills and
             Award in Employment and Personal Learning Skills in Health. I went on to complete my Advanced
             Level Apprenticeship in Optical Health and Retail in 2016. I began working at Greasby Opticians
@@ -52,8 +62,13 @@
           </p>
         </div>
         <h2 class="mx-10 text-center mt-6 mb-2">Caroline Cookson</h2>
-        <div class="mx-6 p-4 bg-white bg-opacity-75 shadow-md rounded-md">
-          <p class="text-greasby">
+        <div class="mx-6 p-4 bg-white bg-opacity-75 shadow-md rounded-md sm:flex sm:items-center">
+          <g-image
+            src="../assets/images/headshots/caroline.jpg"
+            alt="Greasby Opticians"
+            class="w-24 rounded-max"
+          />
+          <p class="mt-4 sm:mt-0 sm:ml-4 text-greasby">
             I started working in Optics in 2008 and achieved my qualification as a Dispensing Optician from
             Anglia Ruskin University, Cambridge in 2013. I am a member of the Association of British Dispensing
             Opticians (ABDO) and completed my Low Vision Certificate in 2015. When I’m not dispensing
@@ -61,8 +76,13 @@
           </p>
         </div>
         <h2 class="mx-10 text-center mt-6 mb-2">Jessica Magson</h2>
-        <div class="mx-6 p-4 bg-white bg-opacity-75 shadow-md rounded-md">
-          <p class="text-greasby">
+        <div class="mx-6 p-4 bg-white bg-opacity-75 shadow-md rounded-md sm:flex sm:items-center">
+          <g-image
+            src="../assets/images/headshots/jessica-magson.jpg"
+            alt="Greasby Opticians"
+            class="w-24 rounded-max"
+          />
+          <p class="mt-4 sm:mt-0 sm:ml-4 text-greasby">
             I started working in the optical industry in 2015. Since joining Dr Workman at Greasby Opticians in
             2017 I have been able to develop my knowledge and skills to become an Optical Assistant. I love
             working in such a tight knit community. I got married in 2018 and am currently off work as I prepare
@@ -70,8 +90,13 @@
           </p>
         </div>
         <h2 class="mx-10 text-center mt-6 mb-2">Helen Winterburn</h2>
-        <div class="mx-6 p-4 bg-white bg-opacity-75 shadow-md rounded-md">
-          <p class="text-greasby">
+        <div class="mx-6 p-4 bg-white bg-opacity-75 shadow-md rounded-md sm:flex sm:items-center">
+          <g-image
+            src="../assets/images/headshots/helen.jpg"
+            alt="Greasby Opticians"
+            class="w-24 rounded-max"
+          />
+          <p class="mt-4 sm:mt-0 sm:ml-4 text-greasby">
             I have thoroughly enjoyed working as part of the team at Greasby Opticians for the last 5 years as an
             Optical Assistant. I live locally and enjoy interacting with the patients in our community. I’m a
             season ticket holder at Anfield and top fan of the Mighty Reds. In my spare time, I enjoy playing
